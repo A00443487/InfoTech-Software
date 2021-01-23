@@ -1,0 +1,15 @@
+
+import java.lang.Math;
+
+public class File3 {
+
+
+   public static void main(String[] args) {
+
+        Math.avg(10,10);
+
+   }
+
+}
+~
+
