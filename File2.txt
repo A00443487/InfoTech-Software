@@ -1,15 +1,15 @@
 public class File2 {
 
-   #A00443487
-   public double mod (int a, int b) {
+   #A00439253
+   public double division (int a, int b) {
 
-	return a%b;
+	return a/b;
 
    }
 
    public static void main(String[] args) {
         
-	mod(10,10);
+	division(10,10);
 
    }
 

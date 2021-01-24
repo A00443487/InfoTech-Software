@@ -1,15 +1,15 @@
 public class File1 {
 
-        #A00443487
-   public int substraction (int a, int b) {
+   #A00439253
+   public int addition (int a, int b) {
 
-        return a-b;
+        return a+b;
 
    }
 
    public static void main(String[] args) {
 
-        substraction((10,10);
+        addition((10,10);
 
    }
 
