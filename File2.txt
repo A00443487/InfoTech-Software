@@ -1,22 +1,15 @@
-import java.lang.Math;
-
 public class File2 {
 
-   #A00439253
-   public double division (int a, int b) {
-   return a/b;
-	}
-	
-   #A00446685
-   public double min(int a , int b){
-   return Math.min(a,b);
+   #A00443487
+   public double mod (int a, int b) {
+
+	return a%b;
+
    }
 
    public static void main(String[] args) {
         
-	division(10,10);
-	min(10,5);
-
+	mod(10,10);
 
    }
 
