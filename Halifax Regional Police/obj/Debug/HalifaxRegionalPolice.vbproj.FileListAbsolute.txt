@@ -1,2 +1,0 @@
-C:\Users\Dell\Documents\GitHub\InfoTech-Software\Halifax Regional Police\obj\Debug\HalifaxRegionalPolice.vbprojAssemblyReference.cache
-C:\Users\Dell\Documents\GitHub\InfoTech-Software\Halifax Regional Police\obj\Debug\HalifaxRegionalPolice.vbproj.GenerateResource.cache

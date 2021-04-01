@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.vb" Inherits="HalifaxRegionalPolice.MvcApplication" Language="VB" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="HalifaxRegionalPolice.MvcApplication" Language="C#" %>
