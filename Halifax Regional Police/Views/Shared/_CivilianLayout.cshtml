@@ -30,26 +30,17 @@
                 <ul class="nav navbar-nav">
 
                     <li class="dropdown">
-                        <a class="dropdown-toggle" role="button" aria-expanded="false" href="#" data-toggle="dropdown">Registeration <span class="caret"></span></a>
+                        <a class="dropdown-toggle" role="button" aria-expanded="false" href="#" data-toggle="dropdown">Complaint Tracking System<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li>@Html.ActionLink("Civilian", "Register", "Civilian")</li>
-                            <li>@Html.ActionLink("Officer", "Register", "Officer")</li>
+                            <li>@Html.ActionLink("File A Complaint", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Withdraw The Complaint", "Index", "Home")</li>
+                            <li>@Html.ActionLink("View Complaint Status", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Reopen The Complaint", "Index", "Home")</li>
 
                         </ul>
                     </li>
                 </ul>
-                <ul class="nav navbar-nav">
-
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" role="button" aria-expanded="false" href="#" data-toggle="dropdown">Login <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li>@Html.ActionLink("Civilian", "Login", "Civilian")</li>
-                            <li>@Html.ActionLink("Officer", "Login", "Officer")</li>
-
-                        </ul>
-                    </li>
-                </ul>
-
+                
 
             </div>
             <!---->
