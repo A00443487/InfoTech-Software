@@ -47,7 +47,7 @@ CREATE TABLE positions(
 
 	
 	id int PRIMARY KEY,
-	name varchar not null
+	name varchar(30) not null
 	
 	
 );
@@ -87,7 +87,7 @@ CREATE TABLE complaints(
 	id INT PRIMARY KEY,
 	reporting_date DATE NOT NULL,
 	status_id INT FOREIGN KEY REFERENCES status(id),
-	complaint_type INT FOREIGN KEY REFERENCES complaint_types(id),
+	complaint_type INT FOREIGN KEY REFERENCES complaint_type_id(id),
 	description VARCHAR(250), 
 	owner INT FOREIGN KEY REFERENCES users(sin)
 	
