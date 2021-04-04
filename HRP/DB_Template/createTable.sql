@@ -1,9 +1,16 @@
-
-
+drop table admins;
+drop table complaint_handlers;
+drop table complaints;
+drop table complaint_types;
+drop table users;
+drop table address;
+drop table polices;
+drop table positions;
+drop table status;
 
 CREATE TABLE address(
 	
-	id INT PRIMARY KEY,
+	id INT PRIMARY KEY identity(1,1),
 	door_no INT NOT NULL,
 	street_name VARCHAR(50) NOT NULL,
 	unit VARCHAR(50) ,
@@ -13,9 +20,6 @@ CREATE TABLE address(
 	country VARCHAR(50) NOT NULL
 	
 );
-
-
-
 
 CREATE TABLE users (
     
@@ -33,22 +37,27 @@ CREATE TABLE users (
 );
 
 
-CREATE TABLE polices(
-
-	sin INT PRIMARY KEY,
-	position_id int NOT NULL,
-	activation_code VARCHAR(50) NOT NULL
-	
-);
-
 
 
 CREATE TABLE positions(
 
 	
-	id int PRIMARY KEY,
-	name varchar not null
+	id int PRIMARY KEY identity(1,1),
+	name varchar(30) not null
 	
+	
+);
+
+
+
+
+
+
+CREATE TABLE polices(
+
+	sin INT PRIMARY KEY,
+	position_id int NOT NULL FOREIGN KEY REFERENCES positions(id),
+	activation_code VARCHAR(50) NOT NULL
 	
 );
 
@@ -56,7 +65,7 @@ CREATE TABLE positions(
 
 CREATE TABLE status(
 
-	id INT PRIMARY KEY,
+	id INT PRIMARY KEY identity(1,1),
 	name VARCHAR(50) NOT NULL
 );	
 
@@ -76,7 +85,7 @@ CREATE TABLE admins(
 
 CREATE TABLE complaint_types(
 
-	id INT PRIMARY KEY,
+	id INT PRIMARY KEY identity(1,1),
 	name VARCHAR(100) NOT NULL
 
 );
@@ -84,10 +93,10 @@ CREATE TABLE complaint_types(
 
 CREATE TABLE complaints(
 
-	id INT PRIMARY KEY,
+	id INT PRIMARY KEY identity(1,1),
 	reporting_date DATE NOT NULL,
 	status_id INT FOREIGN KEY REFERENCES status(id),
-	complaint_type INT FOREIGN KEY REFERENCES complaint_types(id),
+	complaint_type_id INT FOREIGN KEY REFERENCES complaint_types(id),
 	description VARCHAR(250), 
 	owner INT FOREIGN KEY REFERENCES users(sin)
 	
@@ -97,9 +106,12 @@ CREATE TABLE complaints(
 
 
 
+
+
 CREATE TABLE complaint_handlers(
 
-	id INT FOREIGN KEY REFERENCES complaints(id),
+	id int primary key identity(1,1),
+	complaint_id INT FOREIGN KEY REFERENCES complaints(id),
 	officer INT FOREIGN KEY REFERENCES polices(sin)
 	
 );
