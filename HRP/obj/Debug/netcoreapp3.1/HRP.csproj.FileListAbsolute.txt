@@ -73,3 +73,9 @@ D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.csproj.CopyComplete
 D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.dll
 D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.pdb
 D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.genruntimeconfig.cache
+D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.csprojAssemblyReference.cache
+D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Login\AdminLogin.cshtml.g.cs
+D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Register\Civilian.cshtml.g.cs
+D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Register\Police.cshtml.g.cs
+D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs

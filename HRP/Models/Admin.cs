@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -10,7 +11,14 @@ namespace HRP.Models
     {
         [Key]
         public int sin { get; set; }
+        [Required(ErrorMessage = "Please enter your username.")]
+        [Display(Name = "Username")]
+        
         public string username { get; set; }
+        
+        [Required(ErrorMessage = "Please enter your password.")]
+        [DataType(DataType.Password)]
+        [Display(Name = "Password")]
         public string password { get; set; }
 
 

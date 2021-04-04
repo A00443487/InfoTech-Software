@@ -7,7 +7,9 @@ namespace HRP.Models
 {
     public class ComplaintHandle
     {
+
         public int id { get; set; }
+        public int complaint_id { get; set; }
 
         public string officer { get; set; }
     }
