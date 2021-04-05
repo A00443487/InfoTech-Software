@@ -79,3 +79,7 @@ D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Register\Civilian.cshtml.g.cs
 D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Register\Police.cshtml.g.cs
 D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
 D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PoliceList.cshtml.g.cs
+D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PoliceCreate.cshtml.g.cs
+D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\IdExist.cshtml.g.cs
+D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PoliceUpdate.cshtml.g.cs

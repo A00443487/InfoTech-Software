@@ -9,6 +9,9 @@ namespace HRP.Data
 {
     public class HrpDbContext : DbContext
     {
+        public HrpDbContext()
+        {
+        }
 
         public HrpDbContext(DbContextOptions<HrpDbContext> options)
             : base(options)

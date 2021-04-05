@@ -9,7 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DataAccessLayers\" />
     <Folder Include="ClientApp\" />
   </ItemGroup>
 
