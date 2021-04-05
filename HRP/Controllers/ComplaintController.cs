@@ -1,4 +1,5 @@
 ﻿using HRP.Data;
+using HRP.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -17,7 +18,45 @@ namespace HRP.Controllers
             obj_hrpdbcontext = hrpdbcontext;
         }
 
+        
+
+//
+//
+//        [HttpPost]
+//        public IActionResult AddComplaint(Complaints complaint)
+//        {
+//            if (ModelState.IsValid)
+//            {
+//
+//
+//
+//                //var entry = obj_hrpdbcontext.Admins.Count(a => a.username == admin.username && a.password == admin.password);
+//                //if (entry > 0)
+//                //{
+//                //    return this.RedirectToAction("Index", "Admin");
+//                //}
+//                //else
+//                //{
+//                //    ViewBag.ErrorMessage = "UserName or Password is wrong";
+//                //    return View("AdminLogin");
+//                //}
+//
+//            }
+//
+//            return View("AdminLogin");
+//
+//
+//        }
+//
+
+
+
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult AddComplaint()
         {
             return View();
         }
