@@ -246,3 +246,4 @@ E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.genruntimeconfig
 E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Complaint\AddComplaint.cshtml.g.cs
 E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\ViewComplaint.cshtml.g.cs
 E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PoliceLayout.cshtml.g.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\UpdateComplaint.cshtml.g.cs
