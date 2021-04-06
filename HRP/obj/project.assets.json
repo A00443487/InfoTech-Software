@@ -5656,11 +5656,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\Documents\\GitHub\\InfoTech-Software\\HRP\\HRP.csproj",
+      "projectUniqueName": "D:\\PK\\HRP\\HRP.csproj",
       "projectName": "HRP",
-      "projectPath": "C:\\Users\\Dell\\Documents\\GitHub\\InfoTech-Software\\HRP\\HRP.csproj",
+      "projectPath": "D:\\PK\\HRP\\HRP.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\Documents\\GitHub\\InfoTech-Software\\HRP\\obj\\",
+      "outputPath": "D:\\PK\\HRP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5712,7 +5712,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -10,8 +10,8 @@ namespace HRP.Models
     {
         //public int id { get; set; }
         [Key]
-        [Required]
-        [Display(Name = "SIN")]
+        [Required(ErrorMessage = "Please enter your SIN.")]
+        [Display(Name = "Username")]
         public int sin { get; set; }
         [Required]
         [Display(Name = "First Name")]
@@ -22,7 +22,7 @@ namespace HRP.Models
         [Required]
         [Display(Name = "Email")]
         public string email { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Please enter your Password.")]
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
         public string password { get; set; }

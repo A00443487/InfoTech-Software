@@ -26,7 +26,10 @@ namespace HRP
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-
+            services.AddMvc();
+            services.AddSession(options => {
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
+            });
             services.AddDbContext<HrpDbContext>(options =>
            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         }
@@ -34,6 +37,7 @@ namespace HRP
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -46,7 +50,8 @@ namespace HRP
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseSession();
+            
             app.UseRouting();
 
             app.UseAuthorization();

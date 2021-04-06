@@ -24,16 +24,19 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">View Complaints</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Civilian" asp-action="ViewComplaints">View-Complaints</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Update Complaint Status</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Civilian" asp-action="UpdateComplaintStatus">Update-Complaint Status</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="AdminLogin">Profile</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Civilian" asp-action="ComplaintTrack">Complaint-Tracking</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="AdminLogin">Logout</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Civilian" asp-action="Profile">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Civilian" asp-action="Logout">Logout</a>
                         </li>
                     </ul>
                 </div>
@@ -48,7 +51,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - HRP - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2021 - HRP - <a href="#">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
