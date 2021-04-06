@@ -48,7 +48,12 @@
             background-color: #3e8e41;
         }
     </style>
-
+    <script>
+        function closeCurrentWindow() {
+            window.open('', '_parent', '');
+            window.close();
+        }
+    </script>
 
 
 
@@ -57,33 +62,10 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Admin" asp-action="Index"><img class="navbar-brand" src="~/favicon.png" width="50" height="60"/></a>
+                <a class="navbar-brand" asp-area="" asp-controller="" asp-action="">Halifax Regional Police</a>
+
                 
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="PoliceList">Resource Management</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="PositionList">Positions Management</a>
-                        </li>
-                       
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="AdminLogin">Status Management</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="AdminLogin">Complaint-Types Management</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="AdminLogin">Profile</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="AdminLogin">Logout</a>
-                        </li>
-                    </ul>
-                </div>
-              
+
             </div>
         </nav>
     </header>
