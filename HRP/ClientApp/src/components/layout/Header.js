@@ -115,23 +115,27 @@ const Header = ({
                       <Link to="#0" onClick={closeMenu}>Home</Link>
                     </li>
                     <li>
-                     <Link to="#0" onClick={closeMenu}>About</Link>
+                        <a href="#AboutUs"> About </a>
                     </li>
                     <li>
-                     <Link to="#0" onClick={closeMenu}>Contact</Link>
-                                  </li>
+                        <a href="#ContactUs"> Contact Us</a>
+                    </li>
                     <li> 
                                       <Link to="Login/AdminLogin" target="_blank" >Admin Login</Link>
                                   </li>
                     <li>
+                                  <div class="dropdown">
+                                          <button class="dropbtn">
                      <Link to="#0" onClick={closeMenu}>Civilian/Officer Login</Link>
-                                  </li>
-                      <li>
-                       <Link to="#0" onClick={closeMenu}>Civilian Registeration</Link>
-                     </li>
-                    <li>
-                       <Link to="#0" onClick={closeMenu}>Officer Registeration</Link>
+                                              </button>
+                                      <div class="dropdown-content">
+                                              <a href="#">Civilian Registeration</a>
+                                              <a href="#">Officer Registeration</a>
+                                      </div>
+                                  </div>
                     </li>
+
+                    
 
                               </ul>
 
