@@ -1,0 +1,43 @@
+﻿
+@model IEnumerable<Complaints>
+
+@{
+    Layout = "~/Views/Shared/_CivilianLayout.cshtml";
+    var title = "Complaint Details";
+    ViewData["Title"] = title;
+}
+
+<h2>@title</h2>
+
+
+<table class="table table-bordered table-sm table-striped">
+    <thead>
+        <tr><th>ID</th><th>Reporting Date</th><th>Status</th></tr>
+    </thead>
+    <tbody>
+        @if (Model == null)
+        {
+            <tr><td colspan="7" class="text-center">No Model Data</td></tr>
+
+        }
+        else
+        {
+            @foreach (var p in Model)
+            {
+    <tr>
+        <td>@p.id</td>
+        <td>@p.reporting_date</td>
+        <td>@p.status_id</td>
+        <td>
+            <form asp-action="WithDrewComplaint"  method="post" asp-route-id="@p.id">
+                <button style="background-color: #f44336;">WITHDRAW</button>
+            </form>
+        </td>
+        
+
+    </tr>
+
+            }
+        }
+    </tbody>
+</table>

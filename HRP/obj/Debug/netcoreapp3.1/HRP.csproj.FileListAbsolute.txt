@@ -101,3 +101,7 @@ D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Login\Login.cshtml.g.cs
 D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\Index.cshtml.g.cs
 D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CivilianLayout.cshtml.g.cs
 D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\ViewComplaints.cshtml.g.cs
+D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\ComplaintCreate.cshtml.g.cs
+D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\ViewMoreDetail.cshtml.g.cs
+D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\ReopenComplaint.cshtml.g.cs
+D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\WithdrawComplaint.cshtml.g.cs

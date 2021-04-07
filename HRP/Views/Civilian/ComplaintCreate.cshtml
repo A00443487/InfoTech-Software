@@ -1,5 +1,59 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model HRP.ViewModels.ComplaintVM;
+
 @{
+    Layout = "~/Views/Shared/_CivilianLayout.cshtml";
+    var title = "Fil A Complaint";
+    ViewData["Title"] = "File Complaint";
 }
+
+
+
+<h2>@title</h2>
+
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<form class="m-1 p-1" method="post" asp-controller="Civilian" asp-action="ComplaintCreated">
+
+    <div class="form-group">
+
+        <label for="reporting_date"><b>Reporting Date</b></label>
+        <input for="reporting_date" type="text"  name="reporting_date" id="reporting_date" class="form-control" value="@DateTime.Now.ToShortDateString()" readonly>
+    </div>
+    <div class="form-group">
+        <label for="status_id"><b>Status</b></label>
+        <input for="status_id" type="text"  name="status_id" id="status_id" class="form-control" value="Case Filing Request" readonly>
+
+    </div>
+    <div class="form-group">
+        <label for="complaint_type_id"><b>TYPE</b></label>
+        <select for="complaint_type_id" id="complaint_type_id" name="complaint_type_id" class="form-control" />
+        
+        @foreach (ComplaintType p in Model.complainttype)
+        {
+            <option>
+                @p.name
+            </option>
+        }
+    </div>
+    <div class="form-group">
+
+        <label for="code"><b>ACTIVATION CODE</b></label>
+        <input for="code" type="hidden" placeholder="Provide the activation Code" name="code" id="code" class="form-control" required>
+    </div>
+
+    <div class="form-group">
+      
+
+            <label for="description"><b>DESCRIPTION</b></label>
+            <textarea id="description" name="description" required placeholder="Desciption About the Crime" class="form-control">
+  
+  </textarea>
+
+        </div>
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<script src="/lib/jquery/dist/jquery.min.js"></script>
+<script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>

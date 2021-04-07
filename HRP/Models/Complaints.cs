@@ -7,11 +7,10 @@ namespace HRP.Models
 {
     public class Complaints
     {
-        public string status_name = "";
-        public string complaint_type_name ="";
+       
         public int id { get; set; }
 
-        public DateTime reporting_date { get; set; }
+        public string reporting_date { get; set; }
 
         public int status_id { get; set; }
 
@@ -22,3 +21,4 @@ namespace HRP.Models
         public int owner { get; set; }
     }
 }
+

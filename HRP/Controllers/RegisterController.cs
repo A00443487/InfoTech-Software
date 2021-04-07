@@ -50,7 +50,7 @@ namespace HRP.Controllers
                 var us_data = rVM.user;
             }
 
-            return View();
+            return RedirectToAction("Login","Login");
         }
     }
 }

@@ -164,7 +164,7 @@ namespace HRP.Controllers
                 }
                 else
                 {
-                    obj_hrpdbcontext.Positions.Add(position);
+                    var data = obj_hrpdbcontext.Positions.Add(position);
                     obj_hrpdbcontext.SaveChanges();
                 }
                 
