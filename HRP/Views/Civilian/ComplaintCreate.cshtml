@@ -16,7 +16,7 @@
     <div class="form-group">
 
         <label for="reporting_date"><b>Reporting Date</b></label>
-        <input for="reporting_date" type="text"  name="reporting_date" id="reporting_date" class="form-control" value="@DateTime.Now.ToShortDateString()" readonly>
+        <input for="reporting_date" type="text"  name="reporting_date" id="reporting_date" class="form-control" value="@DateTime.Now.ToString("MM/dd/yyyy hh:mm tt")" readonly>
     </div>
     <div class="form-group">
         <label for="status_id"><b>Status</b></label>

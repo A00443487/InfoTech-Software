@@ -2,7 +2,7 @@
 @model IEnumerable<Complaints>
 
 @{
-    Layout = "~/Views/Shared/_CivilianLayout.cshtml";
+    Layout = "~/Views/Shared/_PoliceLayout.cshtml";
     var title = "Complaint Details";
     ViewData["Title"] = title;
 }
@@ -28,13 +28,9 @@
         <td>@p.id</td>
         <td>@p.reporting_date</td>
         <td>@p.status_id</td>
-        <td>
-            <form asp-action="WithDrewComplaintPenalty"  method="post" asp-route-id="@p.id">
-                <button style="background-color: #f44336;">WITHDRAW</button>
-            </form>
-        </td>
-        
 
+        <td><a asp-action="ViewMoreDetail" asp-route-id="@p.id">View More Detail</a></td>
+        <td><a asp-action="DownloadFIR" asp-route-id="@p.id">Download FIR</a></td>
     </tr>
 
             }

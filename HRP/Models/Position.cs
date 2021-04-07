@@ -9,7 +9,7 @@ namespace HRP.Models
     public class Position
     {
         public int id { get; set; }
-        [Required(ErrorMessage = "Please enter your position name.")]
+        [Required(ErrorMessage = "Position Name Required")]
         [Display(Name = "Position Name")]
         public string name { get; set; }
     }

@@ -1,6 +1,7 @@
 ﻿using HRP.Data;
 using HRP.Models;
 using HRP.ViewModels;
+using iTextSharp.text;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -36,11 +37,11 @@ namespace HRP.Controllers
                 sin = Int16.Parse(session);
             }
         }
-        // UPDATE IT LATER
+        
         public IActionResult Index()
         {
-            SessionCheck();
-            return View();
+
+            return RedirectToAction("ViewComplaints");
         }
         public IActionResult ViewComplaints()
         {
@@ -88,7 +89,16 @@ namespace HRP.Controllers
             return View(obj_hrpdbcontext.Complaints.Where(data => data.owner == sin && data.status_id != status_id));
         }
         [HttpPost]
-        public IActionResult WithDrewComplaint(int id)
+        public IActionResult WithDrewComplaintPenalty(int id)
+        {
+            SessionCheck();
+            Complaints comp = new Complaints();
+            comp.id = id;
+            return View(comp);
+        }
+        
+        [HttpPost]
+        public IActionResult WithDrewComplaint(int id,string cname, string ccnum, string exp, string cvv)
         {
             SessionCheck();
             int status_id = obj_hrpdbcontext.Status.Where(data => data.name == "Withdraw").FirstOrDefault().id;

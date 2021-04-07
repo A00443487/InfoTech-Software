@@ -33,11 +33,11 @@ namespace HRP.Controllers
                 Response.Redirect(Url.Action("AdminLogin","Login"));
             }
         }
-        [Route("admin-home")]
+        
         public IActionResult Index()
         {
-            SessionCheck();
-            return View();
+            
+            return RedirectToAction("PoliceList");
         }
         [Route("police-details")]
         public IActionResult PoliceList()

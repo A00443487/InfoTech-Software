@@ -105,3 +105,11 @@ D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\ComplaintCreate.cshtml.g.
 D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\ViewMoreDetail.cshtml.g.cs
 D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\ReopenComplaint.cshtml.g.cs
 D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\WithdrawComplaint.cshtml.g.cs
+D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\ViewComplaints.cshtml.g.cs
+D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\ViewMoreDetail.cshtml.g.cs
+D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\UpdateComplaintList.cshtml.g.cs
+D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\UpdateComplaintStatus.cshtml.g.cs
+D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\ComplaintTrack.cshtml.g.cs
+D:\PK\HRP\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\PK\HRP\bin\Debug\netcoreapp3.1\itextsharp.dll
+D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\WithDrewComplaintPenalty.cshtml.g.cs
