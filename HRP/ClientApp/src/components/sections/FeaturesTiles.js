@@ -44,7 +44,7 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'About Us : Build up the whole picture',
+    title: 'About Us',
     paragraph: 'HRP provides an individual scope for following three components of the system'
   };
 
