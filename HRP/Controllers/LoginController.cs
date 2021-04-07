@@ -46,5 +46,34 @@ namespace HRP.Controllers
          
 
         }
+
+
+
+        public IActionResult UserLogin()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult UserLogin(Admin admin)
+        {
+            if (ModelState.IsValid)
+            {
+                var entry = obj_hrpdbcontext.Admins.Count(a => a.username == admin.username && a.password == admin.password);
+                if (entry > 0)
+                {
+                    return this.RedirectToAction("Index", "Admin");
+                }
+                else
+                {
+                    ViewBag.ErrorMessage = "UserName or Password is wrong";
+                    return View("AdminLogin");
+                }
+
+            }
+
+            return View("AdminLogin");
+
+
+        }
     }
 }

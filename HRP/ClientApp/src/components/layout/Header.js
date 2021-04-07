@@ -120,17 +120,22 @@ const Header = ({
                     <li>
                         <a href="#ContactUs"> Contact Us</a>
                     </li>
-                    <li> 
-                                      <Link to="Login/AdminLogin" target="_blank" >Admin Login</Link>
-                                  </li>
+                    <li>
+                        <Link to="Login/AdminLogin" target="_blank" >Admin Login</Link>
+                    </li>
+
+                    <li>
+                        <Link to="Login/UserLogin" target="_blank" >Login</Link>
+                    </li>
+
                     <li>
                                   <div class="dropdown">
                                           <button class="dropbtn">
-                     <Link to="#0" onClick={closeMenu}>Civilian/Officer Login</Link>
+                                        <Link to="#0" onClick={closeMenu}>Civilian/Officer Login</Link>
                                               </button>
                                       <div class="dropdown-content">
-                                              <a href="#">Civilian Registeration</a>
-                                              <a href="#">Officer Registeration</a>
+                                              <Link to="Register/Civilian" target="_blank" >Civilian Registeration</Link>
+                                              <Link to="Register/Police" target="_blank" >Officer Registeration</Link>
                                       </div>
                                   </div>
                     </li>

@@ -94,3 +94,4 @@ E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.csproj.CopyCompl
 E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.dll
 E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.pdb
 E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.genruntimeconfig.cache
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Login\UserLogin.cshtml.g.cs
