@@ -38,3 +38,4 @@ steps:
     command: 'install'
 
 
+- task: PublishBuildArtifacts@1
