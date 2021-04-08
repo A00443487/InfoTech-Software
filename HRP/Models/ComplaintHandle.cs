@@ -11,6 +11,7 @@ namespace HRP.Models
         public int id { get; set; }
         public int complaint_id { get; set; }
 
-        public string officer { get; set; }
+        public int officer_id { get; set; }
+        public string last_update { get; set; }
     }
 }

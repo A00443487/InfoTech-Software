@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Position>
+
+@{
+
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    var title = "New Joinee Police Officer";
+    ViewData["Title"] = title;
+}
+<h2>@title</h2>
+
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<form class="m-1 p-1" method="post" action="/Admin/PoliceCreated">
+
+
+    <div class="form-group">
+
+        <label for="sin"><b>SIN</b></label>
+        <input for="sin" type="number" placeholder="Provide the SIN" name="sin" id="sin" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="position"><b>POSITION</b></label>
+        <select for="position" id="position" name="position" class="form-control" />
+        @foreach (var p in Model)
+        {
+            <option>
+                @p.name
+            </option>
+        }
+    </div>
+    
+    <div class="form-group">
+
+        <label for="code"><b>ACTIVATION CODE</b></label>
+        <input for="code" type="hidden" placeholder="Provide the activation Code" name="ode" id="code" class="form-control" required>
+    </div>
+
+    <div class="form-group">
+        <label for="activation_code"><b>ACTIVATION CODE</b></label>
+        <input for="activation_code" type="number" placeholder="Provide the activation Code" name="activation_code" id="activation_code" class="form-control" required>
+
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+
+
+
+</form>
+
+
+<script src="/lib/jquery/dist/jquery.min.js"></script>
+<script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>
+
+<script src="/lib/jquery/dist/jquery.min.js"></script>
+<script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>  

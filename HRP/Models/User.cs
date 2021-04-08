@@ -10,29 +10,29 @@ namespace HRP.Models
     {
         //public int id { get; set; }
         [Key]
-        [Required]
-        [Display(Name = "SIN")]
+        [Required(ErrorMessage = "SIN Required")]
+        [Display(Name = "Social Insurance Number")]
         public int sin { get; set; }
-        [Required]
+        [Required(ErrorMessage = "First Name Required")]
         [Display(Name = "First Name")]
         public string fname { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Last Name Required")]
         [Display(Name = "Last Name")]
         public string lname { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Email ID Required")]
         [Display(Name = "Email")]
         public string email { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Password Required")]
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
         public string password { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Contact Required")]
         [Display(Name = "Contact")]
         public string contact { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Gender Required")]
         [Display(Name = "Gender")]
         public char gender { get; set; }
-        [Required]
+        [Required(ErrorMessage = "DOB Required")]
         [Display(Name = "Date Of Birth")]
         public DateTime dob { get; set; }
 

@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="iTextSharp" Version="5.5.13.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.13" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DataAccessLayers\" />
     <Folder Include="ClientApp\" />
   </ItemGroup>
 
