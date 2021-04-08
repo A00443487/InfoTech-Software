@@ -1,0 +1,59 @@
+﻿@model Complaints
+
+@{
+
+    Layout = "~/Views/Shared/_ValidationScriptsPartial.cshtml";
+            }
+
+
+    <h2>Complaint Withdraw HRP-Penality</h2>
+    <p>Withdraw complaints leads loss of time and energy spent for the case, it our regulation for the civilian to pay for the penality for withdraw. Hence, next time complaint for fun/mistake will not occur. We appreciate your responsible act. </p>
+    <div class="row">
+        <div class="col-75">
+            <div class="container">
+                <form method="post" asp-controller="Civilian" asp-action="WithDrewComplaint">>
+
+                    
+                    <div class="col-50">
+                        <h3>Payment</h3>
+                        <label for="fname">Accepted Cards</label>
+                        <div class="icon-container">
+                            <i class="fa fa-cc-visa" style="color:navy;"></i>
+                            <i class="fa fa-cc-amex" style="color:blue;"></i>
+                            <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                            <i class="fa fa-cc-discover" style="color:orange;"></i>
+                        </div>
+                        <input type="number" id="id" name="id" value="@Model.id" hidden>
+                        <label for="cname">Name on Card</label>
+                        <input type="text" id="cname" name="cname" placeholder="John More Doe">
+                        <label for="ccnum">Credit card number</label>
+                        <input type="text" id="ccnum" name="ccnum" placeholder="1111-2222-3333-4444">
+                        <label for="expmonth">Exp Date</label>
+                        <input type="text" id="exp" name="exp" placeholder="02/12">
+                        
+                        <div class="row">
+
+                            <div class="col-50">
+                                <label for="cvv">CVV</label>
+                                <input type="text" id="cvv" name="cvv" placeholder="352">
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <input type="submit" value="Continue to PAY" class="btn">
+                </form>
+            </div>
+        </div>
+        <div class="col-25">
+            <div class="container">
+                <h6>Complaint ID @Model.id Charging Details</h6>
+                <p>Reporting Charge <span class="price">$14</span></p>
+                <p>Cancellation Fee <span class="price">$6</span></p>
+                <p>Service Tax <span class="price">$0.25</span></p>
+                <hr>
+                <p>Total <span class="price" style="color:black"><b>$20.25</b></span></p>
+            </div>
+        </div>
+    </div>
+

@@ -1,0 +1,43 @@
+﻿
+@model IEnumerable<Police>
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    var title = "Police Resource Management";
+    ViewData["Title"] = title;
+}
+
+<h2>@title</h2>
+
+<h3><a asp-action="PoliceCreate" class="btn btn-sm btn-secondary">Create</a></h3>
+<table class="table table-bordered table-sm table-striped">
+    <thead>
+        <tr><th>SIN</th><th>POSITION ID</th><th>Activation Code</th></tr>
+    </thead>
+    <tbody>
+        @if (Model == null)
+        {
+            <tr><td colspan="7" class="text-center">No Model Data</td></tr>
+
+        }
+        else
+        {
+            @foreach (var p in Model)
+            {
+                <tr>
+                    <td>@p.sin</td>
+                    <td>@p.position_id</td>
+                    <td>@p.activation_code</td>
+                                      
+                    <td><a asp-action="PoliceUpdate" asp-route-id="@p.sin">Update</a></td>
+                    <td>
+                        <form asp-action="PoliceDelete" method="post" asp-route-id="@p.sin">
+                            <button>Delete</button>
+                        </form>
+                    </td>
+                </tr>
+
+            }
+        }
+    </tbody>
+</table>

@@ -1,0 +1,88 @@
+﻿
+@model HRP.ViewModels.ComplaintVM
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+    Layout = "~/Views/Shared/_PoliceLayout.cshtml";
+    var title = "Complaint Report Status Update";
+    ViewData["Title"] = title;
+
+}
+<div class="row">
+    <div class="col-md-8">
+        <section>
+            <form asp-controller="Police" asp-action="UpdatedComplaints">
+                @Html.AntiForgeryToken()
+
+                <h4> Complaint Detail</h4>
+                <hr />
+
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                <div class="form-group">
+                    <label for="id"><b>Complaint ID</b></label>
+                    <input for="id" type="number" placeholder="Provide the SIN" name="id" id="id" readonly value="@Model.complaints.id" required>
+
+
+                </div>
+    
+
+
+    <div class="form-group">
+        <label for="status"><b>Status</b></label>
+        <select for="status" id="status" name="status" class="form-control" />
+        <option> @Model.status_name </option>
+        @foreach (Status p in Model.status)
+        {
+            <option>
+                @p.name
+            </option>
+        }
+    </div>
+    <div class="form-group">
+
+        <label for="code"><b>ACTIVATION CODE</b></label>
+        <input for="code" type="hidden" placeholder="Provide the activation Code" name="ode" id="code" class="form-control" required>
+    </div>
+
+    <div class="form-group">
+
+        @Html.LabelFor(m => m.complaint_type_name, new { @class = "col-md-8 control-label" })
+        <div class="col-md-10">
+            <input for="sin" type="text" placeholder="Provide the SIN" name="sin" id="sin" class="form-control" value="@Model.complaint_type_name" readonly required>
+
+
+
+        </div>
+    </div>
+    <div class="form-group">
+
+        @Html.LabelFor(m => m.complaints.description, new { @class = "col-md-8 control-label" })
+        <div class="col-md-10">
+            <p class="form-control">@Model.complaints.description"</p>
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <button type="submit" class="btn btn-default" style="{background-color: #008CBA;}">UPDATE</button>
+        </div>
+    </div>
+    </form>
+    </section>
+</div>
+</div>
