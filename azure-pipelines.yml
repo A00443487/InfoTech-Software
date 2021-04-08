@@ -38,10 +38,5 @@ steps:
 
 - task: Npm@1
   inputs:
-    command: 'install'
-
-- task: Npm@1
-  inputs:
-    command: 'publish'
-    publishRegistry: 'useFeed'
-    publishFeed: '69d3d21b-6032-42a1-9b12-bf96e809cfe7'
+    command: 'custom'
+    customCommand: 'run build'
