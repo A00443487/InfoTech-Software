@@ -1,0 +1,39 @@
+﻿
+@model IEnumerable<Complaints>
+
+@{
+    Layout = "~/Views/Shared/_PoliceLayout.cshtml";
+    var title = "Update Complaint ";
+    ViewData["Title"] = title;
+}
+
+<h2>@title</h2>
+
+
+<table class="table table-bordered table-sm table-striped">
+    <thead>
+        <tr><th>ID</th><th>Reporting Date</th><th>Status</th></tr>
+    </thead>
+    <tbody>
+        @if (Model == null)
+        {
+            <tr><td colspan="7" class="text-center">No Model Data</td></tr>
+
+        }
+        else
+        {
+            @foreach (var p in Model)
+            {
+                <tr>
+                    <td>@p.id</td>
+                    <td>@p.reporting_date</td>
+                    <td>@p.status_id</td>
+
+                    <td><a asp-action="UpdateComplaintStatus" asp-route-id="@p.id">Update Status</a></td>
+
+                </tr>
+
+            }
+        }
+    </tbody>
+</table>

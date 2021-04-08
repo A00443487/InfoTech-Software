@@ -1,0 +1,48 @@
+﻿
+@model IEnumerable<ComplaintType>
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    var title = "Complaint-Type Management";
+    ViewData["Title"] = title;
+}
+
+<h2>@title</h2>
+
+<h3><a asp-action="ComplaintTypeCreate" class="btn btn-sm btn-secondary">Create</a></h3>
+<table class="table table-bordered table-sm table-striped">
+    <thead>
+        <tr><th>Unique ID</th><th>Complaint-Type Name</th></tr>
+    </thead>
+    <tbody>
+        @if (Model == null)
+        {
+            <tr><td colspan="7" class="text-center">No Model Data</td></tr>
+
+        }
+        else
+        {
+            @foreach (var p in Model)
+            {
+                <tr>
+                    <td>@p.id</td>
+                    <td>@p.name</td>
+
+
+                    <td><a asp-action="ComplaintTypeUpdate" asp-route-id="@p.id">Update</a></td>
+                    <td>
+                        <form asp-action="ComplaintTypeDelete" method="post" asp-route-id="@p.id">
+                            <button>Delete</button>
+                        </form>
+                    </td>
+                </tr>
+
+            }
+        }
+    </tbody>
+</table>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
