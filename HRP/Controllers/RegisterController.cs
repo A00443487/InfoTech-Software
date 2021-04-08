@@ -15,6 +15,8 @@ namespace HRP.Controllers
         {
             obj_HrpDbContext = hrp;
         }
+        
+        [Route("police")]
         public IActionResult Police()
         {
             return View();
@@ -25,10 +27,13 @@ namespace HRP.Controllers
             rVM.user.is_police = "yes";
             return View();
         }
+
+        [Route("civillian")]
         public IActionResult Civilian()
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult Civilian(RegisterVM rVM)
         {
