@@ -58,6 +58,30 @@ const Testimonial = ({
           <SectionHeader data={sectionHeader} className="center-content" id = "ContactUs" />
           <div className={tilesClasses}>
 
+
+
+                      <div className="tiles-item reveal-from-left" data-reveal-delay="200">
+                          <div className="tiles-item-inner">
+                              <p className="text-sm mb-0">
+                                  West Division (Mainland North & South, Bedford):
+                                  15 Convoy Run, Bedford, Nova Scotia.
+                                      <br></br>
+                                      Contact number : 902.490.5200
+                      </p>
+                              <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                                  <span className="testimonial-item-name text-color-high">Ben Stafford</span>
+                                  <span className="text-color-low">  </span>
+                                  <span className="testimonial-item-link">
+                                      <a href="#0"></a>
+                                  </span>
+                              </div>
+                          </div>
+                      </div>
+
+
+
+
+
             <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
                   <p className="text-sm mb-0">
@@ -94,23 +118,7 @@ const Testimonial = ({
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-left" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                  <p className="text-sm mb-0">
-                                      West Division (Mainland North & South, Bedford): 
-                                      15 Convoy Run, Bedford, Nova Scotia.
-                                      <br></br>
-                                      Contact number : 902.490.5200
-                      </p>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Ben Stafford</span>
-                  <span className="text-color-low">  </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0"></a>
-                  </span>
-                </div>
-              </div>
-            </div>
+            
 
           </div>
         </div>
