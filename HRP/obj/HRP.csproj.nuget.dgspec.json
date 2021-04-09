@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PK\\HRP\\HRP.csproj": {}
+    "C:\\Users\\Dell\\Desktop\\SMU\\Semester 1\\MCDA 5510 - Software Dev in Business Envir\\Project\\HRP_Final\\HRP\\HRP.csproj": {}
   },
   "projects": {
-    "D:\\PK\\HRP\\HRP.csproj": {
+    "C:\\Users\\Dell\\Desktop\\SMU\\Semester 1\\MCDA 5510 - Software Dev in Business Envir\\Project\\HRP_Final\\HRP\\HRP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PK\\HRP\\HRP.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\SMU\\Semester 1\\MCDA 5510 - Software Dev in Business Envir\\Project\\HRP_Final\\HRP\\HRP.csproj",
         "projectName": "HRP",
-        "projectPath": "D:\\PK\\HRP\\HRP.csproj",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\SMU\\Semester 1\\MCDA 5510 - Software Dev in Business Envir\\Project\\HRP_Final\\HRP\\HRP.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\PK\\HRP\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\SMU\\Semester 1\\MCDA 5510 - Software Dev in Business Envir\\Project\\HRP_Final\\HRP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,13 +40,35 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "JavaScriptEngineSwitcher.ChakraCore": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "JavaScriptEngineSwitcher.Core": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "JavaScriptEngineSwitcher.Extensions.MsDependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.13, )"
+              "version": "[3.1.11, )"
             },
-            "iTextSharp": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.5.13.2, )"
+              "version": "[3.1.11, )"
+            },
+            "React.AspNet": {
+              "target": "Package",
+              "version": "[5.2.1, )"
             }
           },
           "imports": [
@@ -67,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
