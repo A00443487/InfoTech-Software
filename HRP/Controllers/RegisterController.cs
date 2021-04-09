@@ -16,6 +16,8 @@ namespace HRP.Controllers
         {
             obj_HrpDbContext = hrp;
         }
+        
+        
         public IActionResult Police()
         {
             return View();
@@ -66,10 +68,14 @@ namespace HRP.Controllers
             
         }
 
+
+        
+
         public IActionResult Civilian()
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult Civilian(RegisterVM rVM)
         {

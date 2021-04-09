@@ -42,6 +42,8 @@ namespace HRP.Controllers
 
             return RedirectToAction("ViewComplaints");
         }
+
+        
         public IActionResult ViewComplaints()
         {
 
@@ -49,6 +51,7 @@ namespace HRP.Controllers
             return View(obj_hrpdbcontext.Complaints);
         }
 
+        
         public IActionResult ViewMoreDetail(int id)
         {
             SessionCheck();
@@ -61,6 +64,8 @@ namespace HRP.Controllers
 
             return View(cvm);
         }
+
+        
         public IActionResult UpdateComplaintList()
         {
             SessionCheck();
@@ -77,7 +82,7 @@ namespace HRP.Controllers
             return View(obj_hrpdbcontext.Complaints.Where(x => str.Contains(x.status_id)));
         }
 
-        [Route("update-complaint-status")]
+        
         public IActionResult UpdateComplaintStatus(int id)
         {
             SessionCheck();
@@ -132,12 +137,17 @@ namespace HRP.Controllers
 
             return RedirectToAction("ViewComplaints");
         }
+
+
+        
         public IActionResult ComplaintTrack()
         {
             SessionCheck();
             return View(obj_hrpdbcontext.Complaint_Handlers.Where(x => x.officer_id == sin));
 
         }
+
+        
         public IActionResult Logout()
         {
             SessionCheck();
