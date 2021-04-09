@@ -125,13 +125,13 @@ const Header = ({
                     </li>
 
                     <li>
-                        <Link to="Login/Login" target="_blank" >Login Developer</Link>
+                        <Link to="Login/Login" target="_blank" >Login</Link>
                     </li>
 
                     <li>
                                   <div class="dropdown">
                                           <button class="dropbtn">
-                                        <Link to="#0" onClick={closeMenu}>Civilian/Officer Registeration</Link>
+                                              <Link to="#0" onClick={closeMenu}>Registeration</Link>
                                               </button>
                                       <div class="dropdown-content">
                                               <Link to="Register/Civilian" target="_blank" >Civilian Registeration</Link>

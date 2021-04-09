@@ -51,6 +51,7 @@
                     @Html.LabelFor(m => m.password, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
                         @Html.PasswordFor(m => m.password, new { @class = "form-control", id = "password", placeholder = "Enter your password" })
+                        <span id="message" style="color:red"></span>
                         @Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })
 
                     </div>

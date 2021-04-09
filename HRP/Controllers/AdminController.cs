@@ -33,7 +33,8 @@ namespace HRP.Controllers
                 Response.Redirect(Url.Action("AdminLogin","Login"));
             }
         }
-        
+
+        [Route("police-list")]
         public IActionResult Index()
         {
             
@@ -58,6 +59,8 @@ namespace HRP.Controllers
             return View("IdExist");
         }
         [HttpPost]
+
+
         public IActionResult PoliceCreated(int sin,string position, int activation_code)
         {
             SessionCheck();
