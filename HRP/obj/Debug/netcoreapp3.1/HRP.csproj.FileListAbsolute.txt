@@ -1,231 +1,242 @@
-D:\PK\HRP\bin\Debug\netcoreapp3.1\appsettings.Development.json
-D:\PK\HRP\bin\Debug\netcoreapp3.1\appsettings.json
-D:\PK\HRP\bin\Debug\netcoreapp3.1\HRP.exe
-D:\PK\HRP\bin\Debug\netcoreapp3.1\HRP.deps.json
-D:\PK\HRP\bin\Debug\netcoreapp3.1\HRP.runtimeconfig.json
-D:\PK\HRP\bin\Debug\netcoreapp3.1\HRP.runtimeconfig.dev.json
-D:\PK\HRP\bin\Debug\netcoreapp3.1\HRP.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\HRP.pdb
-D:\PK\HRP\bin\Debug\netcoreapp3.1\HRP.Views.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\HRP.Views.pdb
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.AssemblyInfoInputs.cache
-D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.AssemblyInfo.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.csproj.CoreCompileInputs.cache
-D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.MvcApplicationPartsAssemblyInfo.cache
-D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.RazorAssemblyInfo.cache
-D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.RazorAssemblyInfo.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\staticwebassets\HRP.StaticWebAssets.Manifest.cache
-D:\PK\HRP\obj\Debug\netcoreapp3.1\staticwebassets\HRP.StaticWebAssets.xml
-D:\PK\HRP\obj\Debug\netcoreapp3.1\scopedcss\bundle\HRP.styles.css
-D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.TagHelpers.input.cache
-D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.TagHelpers.output.cache
-D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.RazorCoreGenerate.cache
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ComplaintTypeCreate.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ComplaintTypeList.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ComplaintTypeUpdate.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\IdExist.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PoliceCreate.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PoliceList.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PoliceUpdate.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PositionCreate.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PositionList.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PositionUpdate.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\StatusCreate.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\StatusList.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\StatusUpdate.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Login\AdminLogin.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Register\Civilian.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Register\Police.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CloseLayout.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PoliceLayout.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.RazorTargetAssemblyInfo.cache
-D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.RazorTargetAssemblyInfo.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.Views.pdb
-D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.csproj.CopyComplete
-D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.dll
-D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.pdb
-D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.genruntimeconfig.cache
-D:\PK\HRP\obj\Debug\netcoreapp3.1\HRP.csprojAssemblyReference.cache
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PasswordUpdate.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Profile.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\Index.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Login\Login.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\Index.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CivilianLayout.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\ViewComplaints.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\ComplaintCreate.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\ViewMoreDetail.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\ReopenComplaint.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\WithdrawComplaint.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\ViewComplaints.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\ViewMoreDetail.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\UpdateComplaintList.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\UpdateComplaintStatus.cshtml.g.cs
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\ComplaintTrack.cshtml.g.cs
-D:\PK\HRP\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
-D:\PK\HRP\bin\Debug\netcoreapp3.1\itextsharp.dll
-D:\PK\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\WithDrewComplaintPenalty.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\appsettings.Development.json
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\appsettings.json
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\HRP.exe
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\HRP.deps.json
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\HRP.runtimeconfig.json
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\HRP.runtimeconfig.dev.json
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\HRP.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\HRP.pdb
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\HRP.Views.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\HRP.Views.pdb
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\itextsharp.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\HRP.csprojAssemblyReference.cache
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\HRP.AssemblyInfoInputs.cache
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\HRP.AssemblyInfo.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\HRP.csproj.CoreCompileInputs.cache
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\HRP.MvcApplicationPartsAssemblyInfo.cache
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\HRP.RazorAssemblyInfo.cache
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\HRP.RazorAssemblyInfo.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\staticwebassets\HRP.StaticWebAssets.Manifest.cache
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\staticwebassets\HRP.StaticWebAssets.xml
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\scopedcss\bundle\HRP.styles.css
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\HRP.TagHelpers.input.cache
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\HRP.TagHelpers.output.cache
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\HRP.RazorCoreGenerate.cache
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ComplaintTypeCreate.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ComplaintTypeList.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ComplaintTypeUpdate.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\IdExist.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PasswordUpdate.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PoliceCreate.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PoliceList.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PoliceUpdate.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PositionCreate.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PositionList.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PositionUpdate.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Profile.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\StatusCreate.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\StatusList.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\StatusUpdate.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\ComplaintCreate.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\Index.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\ReopenComplaint.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\ViewComplaints.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\ViewMoreDetail.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\WithdrawComplaint.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\WithDrewComplaintPenalty.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Login\AdminLogin.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Login\ComplaintForm.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Login\Login.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\ComplaintTrack.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\Index.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\UpdateComplaintList.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\UpdateComplaintStatus.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\ViewComplaints.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\ViewMoreDetail.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Register\Civilian.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Register\Police.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CivilianLayout.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CloseLayout.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PoliceLayout.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\HRP.RazorTargetAssemblyInfo.cache
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\HRP.RazorTargetAssemblyInfo.cs
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\HRP.Views.pdb
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\HRP.csproj.CopyComplete
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\HRP.dll
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\HRP.pdb
-D:\SMU\Gits\MCDA5510-GIT_IT\HRP\obj\Debug\netcoreapp3.1\HRP.genruntimeconfig.cache
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\appsettings.json
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\package-lock.json
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\HRP.exe
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\HRP.deps.json
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\HRP.runtimeconfig.json
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\HRP.runtimeconfig.dev.json
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\HRP.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\HRP.pdb
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\HRP.Views.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\HRP.Views.pdb
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.NodeServices.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SpaServices.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SpaServices.Extensions.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\SMU\Github\InfoTech-Software\HRP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.csprojAssemblyReference.cache
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.AssemblyInfoInputs.cache
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.AssemblyInfo.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.csproj.CoreCompileInputs.cache
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.MvcApplicationPartsAssemblyInfo.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.MvcApplicationPartsAssemblyInfo.cache
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.RazorAssemblyInfo.cache
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.RazorAssemblyInfo.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\staticwebassets\HRP.StaticWebAssets.Manifest.cache
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\staticwebassets\HRP.StaticWebAssets.xml
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\scopedcss\bundle\HRP.styles.css
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.TagHelpers.input.cache
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.TagHelpers.output.cache
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.RazorCoreGenerate.cache
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Login\AdminLogin.cshtml.g.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Register\Civilian.cshtml.g.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Register\Police.cshtml.g.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.RazorTargetAssemblyInfo.cache
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.RazorTargetAssemblyInfo.cs
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.Views.pdb
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.csproj.CopyComplete
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.dll
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.pdb
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\HRP.genruntimeconfig.cache
+E:\SMU\Github\InfoTech-Software\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Login\UserLogin.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\package-lock.json
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\HRP.exe
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\HRP.deps.json
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\HRP.runtimeconfig.json
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\HRP.runtimeconfig.dev.json
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\HRP.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\HRP.pdb
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\HRP.Views.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\HRP.Views.pdb
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.NodeServices.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SpaServices.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SpaServices.Extensions.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\HRP.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\HRP.AssemblyInfo.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\HRP.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\HRP.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\HRP.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\HRP.RazorAssemblyInfo.cache
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\HRP.RazorAssemblyInfo.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\staticwebassets\HRP.StaticWebAssets.Manifest.cache
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\staticwebassets\HRP.StaticWebAssets.xml
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\scopedcss\bundle\HRP.styles.css
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\HRP.TagHelpers.input.cache
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\HRP.TagHelpers.output.cache
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\HRP.RazorCoreGenerate.cache
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ComplaintTypeCreate.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ComplaintTypeList.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ComplaintTypeUpdate.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\IdExist.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PasswordUpdate.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PoliceCreate.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PoliceList.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PoliceUpdate.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PositionCreate.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PositionList.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PositionUpdate.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Profile.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\StatusCreate.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\StatusList.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Admin\StatusUpdate.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\ComplaintCreate.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\Index.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\ReopenComplaint.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\ViewComplaints.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\ViewMoreDetail.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\WithdrawComplaint.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\WithDrewComplaintPenalty.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Login\AdminLogin.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Login\Login.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\ComplaintTrack.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\Index.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\UpdateComplaintList.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\UpdateComplaintStatus.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\ViewComplaints.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\ViewMoreDetail.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Register\Civilian.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Register\Police.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CivilianLayout.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CloseLayout.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PoliceLayout.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\HRP.RazorTargetAssemblyInfo.cache
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\HRP.RazorTargetAssemblyInfo.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\HRP.Views.pdb
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\HRP.csproj.CopyComplete
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\HRP.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\HRP.pdb
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\HRP.genruntimeconfig.cache
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\HRP.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\AdvancedStringBuilder.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\JavaScriptEngineSwitcher.ChakraCore.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\JavaScriptEngineSwitcher.Core.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\JavaScriptEngineSwitcher.Extensions.MsDependencyInjection.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\JSPool.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\React.AspNet.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\React.AspNet.Middleware.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\React.Core.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\ru-ru\JavaScriptEngineSwitcher.ChakraCore.resources.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\bin\Debug\netcoreapp3.1\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\Profile.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Civilian\PasswordUpdate.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Register\Error.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\PasswordUpdate.cshtml.g.cs
+C:\Users\Dell\Desktop\SMU\Semester 1\MCDA 5510 - Software Dev in Business Envir\Project\HRP_Final\HRP\obj\Debug\netcoreapp3.1\Razor\Views\Police\Profile.cshtml.g.cs

@@ -253,8 +253,9 @@
 <div class="row">
     <div class="col-md-8">
         <section>
-            <form method="post" asp-controller="Register" asp-action="Police">
 
+
+            <form method="post" asp-controller="Register" asp-action="PoliceRegister">
                 @Html.AntiForgeryToken()
 
 
@@ -362,6 +363,7 @@
                 <div class="form-group">
                     @Html.LabelFor(m => m.user.dob, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
+
                         @Html.TextBoxFor(m => m.user.dob, new
                    {
                        @class = "form-control",
@@ -369,6 +371,8 @@
                        id = "DOB"
                    })
                         <span id="messageDOB" style="color:red"> </span>
+
+
                         @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
                 </div>
@@ -465,9 +469,19 @@
                     </div>
                 </div>
 
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.police.activation_code, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(m => m.police.activation_code, new { @class = "form-control", @type = "number", @required = "required" })
+                        @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
+                    </div>
+                </div>
+
                 <div class="form-group">
                     <div class="col-md-offset-2 col-md-10">
-                        <button asp-page-handler="Register" onclick="return verifyElements()" class="btn btn-default">REGISTER</button>
+                        <button type="submit"  onclick="return verifyElements()" class="btn btn-default">REGISTER</button>
+
                     </div>
                 </div>
 

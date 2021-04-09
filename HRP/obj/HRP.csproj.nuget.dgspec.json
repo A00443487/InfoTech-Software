@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SMU\\Gits\\MCDA5510-GIT_IT\\HRP\\HRP.csproj": {}
+    "C:\\Users\\Dell\\Desktop\\SMU\\Semester 1\\MCDA 5510 - Software Dev in Business Envir\\Project\\HRP_Final\\HRP\\HRP.csproj": {}
   },
   "projects": {
-    "D:\\SMU\\Gits\\MCDA5510-GIT_IT\\HRP\\HRP.csproj": {
+    "C:\\Users\\Dell\\Desktop\\SMU\\Semester 1\\MCDA 5510 - Software Dev in Business Envir\\Project\\HRP_Final\\HRP\\HRP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SMU\\Gits\\MCDA5510-GIT_IT\\HRP\\HRP.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\SMU\\Semester 1\\MCDA 5510 - Software Dev in Business Envir\\Project\\HRP_Final\\HRP\\HRP.csproj",
         "projectName": "HRP",
-        "projectPath": "D:\\SMU\\Gits\\MCDA5510-GIT_IT\\HRP\\HRP.csproj",
-        "packagesPath": "C:\\Users\\ksyther\\.nuget\\packages\\",
-        "outputPath": "D:\\SMU\\Gits\\MCDA5510-GIT_IT\\HRP\\obj\\",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\SMU\\Semester 1\\MCDA 5510 - Software Dev in Business Envir\\Project\\HRP_Final\\HRP\\HRP.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\SMU\\Semester 1\\MCDA 5510 - Software Dev in Business Envir\\Project\\HRP_Final\\HRP\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ksyther\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,13 +40,35 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "JavaScriptEngineSwitcher.ChakraCore": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "JavaScriptEngineSwitcher.Core": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "JavaScriptEngineSwitcher.Extensions.MsDependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.13, )"
+              "version": "[3.1.11, )"
             },
-            "iTextSharp": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.5.13.2, )"
+              "version": "[3.1.11, )"
+            },
+            "React.AspNet": {
+              "target": "Package",
+              "version": "[5.2.1, )"
             }
           },
           "imports": [
