@@ -19,13 +19,13 @@ const Logo = ({
       className={classes}
     >
       <h1 className="m-0">
-        <Link to="/">
-          <Image
-            src={require('./../../../assets/images/logo.png')}
-            alt="Open"
-            width={32}
-            height={32} />
-        </Link>
+              <Link to="/">
+                  <Image
+                      src={('https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Halifax_Regional_Police.svg/1200px-Halifax_Regional_Police.svg.png')}
+                      alt="Open"
+                      width={80}
+                      height={80} />
+              </Link>
       </h1>
     </div>
   );

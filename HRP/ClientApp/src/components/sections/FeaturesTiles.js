@@ -44,7 +44,7 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'About Us : Build up the whole picture',
+    title: 'About Us',
     paragraph: 'HRP provides an individual scope for following three components of the system'
   };
 
@@ -61,20 +61,14 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
-                      alt="Features tile icon 01"
-                      width={64}
-                      height={64} />
-                  </div>
+                  
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
                     Civilian
                     </h4>
                   <p className="m-0 text-sm">
-                                      Civilians or individuals who want to raise the online complaint and keep a track of the status of the complaint.
+                                      Civilians can raise the online complaint and keep a track of the status of thier complaints. 
                     </p>
                 </div>
               </div>
@@ -83,20 +77,14 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-02.svg')}
-                      alt="Features tile icon 02"
-                      width={64}
-                      height={64} />
-                  </div>
+                
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
                     Police
                     </h4>
                   <p className="m-0 text-sm">
-                                      Police who can go through the complaints sequentially and take necessary actions while simultaneously updating the status of the complaints.
+                                      Police who can go through all the complaints sequentially and take necessary actions while simultaneously updating the status of the complaints which can help civilians to understand the status of thier complaint.
                     </p>
                 </div>
               </div>
@@ -105,20 +93,15 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
-                      alt="Features tile icon 03"
-                      width={64}
-                      height={64} />
-                  </div>
+
+
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
                     Admin
                     </h4>
                   <p className="m-0 text-sm">
-                                      Admin who can have to major control on the database related to latest regional office details and is responsible for keeping the system updated to latest information.
+                                      Admin who can have to major control on the organization information related to latest regional office details and is responsible for keeping the system updated to latest information.
                     </p>
                 </div>
               </div>

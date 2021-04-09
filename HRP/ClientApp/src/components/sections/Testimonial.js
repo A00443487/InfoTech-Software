@@ -44,8 +44,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Customer testimonials',
-    paragraph: 'Test'
+    title: 'Contact Us',
+    //paragraph: 'Test'
   };
 
   return (
@@ -60,16 +60,17 @@ const Testimonial = ({
 
             <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Feedback1
+                                      Central Division (Peninsular Halifax),
+                                      1975 Gottingen Street, Halifax, Nova Scotia.
+                                      <br></br>
+                                      Contact Number : 902.490.5686
                       </p>
-                </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Roman Level</span>
-                  <span className="text-color-low"> / </span>
+                  <span className="testimonial-item-name text-color-high">Roman Sigala</span>
+                  <span className="text-color-low">  </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#0"></a>
                   </span>
                 </div>
               </div>
@@ -77,16 +78,17 @@ const Testimonial = ({
 
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Feedback 2
+                                      East Division (Dartmouth): 
+                                      7 Mellor Avenue, Dartmouth, Nova Scotia.
+                                      <br></br>
+                                      Contact Number : 902.490.5171
                       </p>
-                </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
-                  <span className="text-color-low"> / </span>
+                  <span className="text-color-low">  </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#0"></a>
                   </span>
                 </div>
               </div>
@@ -94,16 +96,17 @@ const Testimonial = ({
 
             <div className="tiles-item reveal-from-left" data-reveal-delay="200">
               <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Feedback 3
+                                      West Division (Mainland North & South, Bedford): 
+                                      15 Convoy Run, Bedford, Nova Scotia.
+                                      <br></br>
+                                      Contact number : 902.490.5200
                       </p>
-                </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">Ben Stafford</span>
-                  <span className="text-color-low"> / </span>
+                  <span className="text-color-low">  </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#0"></a>
                   </span>
                 </div>
               </div>

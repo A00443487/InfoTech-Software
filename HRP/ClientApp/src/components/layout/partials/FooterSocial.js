@@ -18,7 +18,7 @@ const FooterSocial = ({
     >
       <ul className="list-reset">
         <li>
-          <a href="https://facebook.com/">
+                  <a href="https://www.facebook.com/HalifaxRegionalPolice/">
             <svg
               width="16"
               height="16"
@@ -31,7 +31,7 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/">
+                  <a href="https://twitter.com/HfxRegPolice?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthorhttps://twitter.com/">
             <svg
               width="16"
               height="16"

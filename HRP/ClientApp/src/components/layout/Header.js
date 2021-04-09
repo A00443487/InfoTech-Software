@@ -131,7 +131,7 @@ const Header = ({
                     <li>
                                   <div class="dropdown">
                                           <button class="dropbtn">
-                                        <Link to="#0" onClick={closeMenu}>Registeration</Link>
+                                              <Link to="#0" onClick={closeMenu}>Registeration</Link>
                                               </button>
                                       <div class="dropdown-content">
                                               <Link to="Register/Civilian" target="_blank" >Civilian Registeration</Link>
