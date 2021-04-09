@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using HRP.Data;
 using Microsoft.EntityFrameworkCore;
-
+using System;
 namespace HRP
 {
     public class Startup
@@ -24,7 +24,7 @@ namespace HRP
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            
+
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
@@ -33,7 +33,10 @@ namespace HRP
             services.AddMvc().AddSessionStateTempDataProvider();
             services.AddSession();
             services.AddDbContext<HrpDbContext>(options =>
-           options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+           options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
+           builder => builder.EnableRetryOnFailure()
+           
+           ));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,7 +56,7 @@ namespace HRP
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
-app.UseSession();
+            app.UseSession();
 
             app.UseRouting();
 
@@ -68,13 +71,13 @@ app.UseSession();
 
             app.UseSpa(spa =>
             {
-              spa.Options.SourcePath = "ClientApp";
+                spa.Options.SourcePath = "ClientApp";
 
-            if (env.IsDevelopment())
-            {
-                    
-              spa.UseReactDevelopmentServer(npmScript: "start");
-            }
+                if (env.IsDevelopment())
+                {
+                    spa.Options.StartupTimeout = TimeSpan.FromSeconds(120);
+                    spa.UseReactDevelopmentServer(npmScript: "start");
+                }
             });
         }
     }

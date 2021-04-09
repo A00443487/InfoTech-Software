@@ -3,27 +3,24 @@
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
-@{
-
-    Layout = "~/Views/Shared/_CloseLayout.cshtml";
-
-}
 @section scripts{
+
+
     <script type="text/javascript">
-        if ('@ViewBag.ErrorMessage' != "") {
-            alert('@ViewBag.ErrorMessage');
-            var username = document.getElementById("username");
-            var password = document.getElementById("password");
-            username.value = "";
-            password.value = "";
-            username.placeholder = 'Enter the valid username';
-            password.placeholder = 'Enter the valid password';
 
-            username.style.color = "red";
+        function verifyElements() {
 
+            var result = true;
+
+          //  result = result && verify_SIN();
+
+            return result;
         }
 
+
     </script>
+
+
 }
 
 <div class="row">
@@ -51,7 +48,6 @@
                     @Html.LabelFor(m => m.password, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
                         @Html.PasswordFor(m => m.password, new { @class = "form-control", id = "password", placeholder = "Enter your password" })
-                        <span id="message" style="color:red"></span>
                         @Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })
 
                     </div>
