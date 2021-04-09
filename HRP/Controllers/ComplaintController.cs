@@ -17,7 +17,6 @@ namespace HRP.Controllers
             obj_hrpdbcontext = hrpdbcontext;
         }
 
-        [Route("complaint-controller")]
         public IActionResult Index()
         {
             return View();

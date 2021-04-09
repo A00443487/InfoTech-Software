@@ -43,7 +43,6 @@ namespace HRP.Controllers
 
             return RedirectToAction("ViewComplaints");
         }
-
         public IActionResult ViewComplaints()
         {
             SessionCheck();
