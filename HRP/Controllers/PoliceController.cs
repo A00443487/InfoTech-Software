@@ -43,7 +43,7 @@ namespace HRP.Controllers
             return RedirectToAction("ViewComplaints");
         }
 
-        [Route("view-complaint")]
+        
         public IActionResult ViewComplaints()
         {
 
@@ -51,7 +51,7 @@ namespace HRP.Controllers
             return View(obj_hrpdbcontext.Complaints);
         }
 
-        [Route("view-complaint-details")]
+        
         public IActionResult ViewMoreDetail(int id)
         {
             SessionCheck();
@@ -65,7 +65,7 @@ namespace HRP.Controllers
             return View(cvm);
         }
 
-        [Route("update-complaint-list")]
+        
         public IActionResult UpdateComplaintList()
         {
             SessionCheck();
@@ -82,7 +82,7 @@ namespace HRP.Controllers
             return View(obj_hrpdbcontext.Complaints.Where(x => str.Contains(x.status_id)));
         }
 
-        [Route("update-complaint-status")]
+        
         public IActionResult UpdateComplaintStatus(int id)
         {
             SessionCheck();
@@ -139,7 +139,7 @@ namespace HRP.Controllers
         }
 
 
-        [Route("complaint-track")]
+        
         public IActionResult ComplaintTrack()
         {
             SessionCheck();
@@ -147,7 +147,7 @@ namespace HRP.Controllers
 
         }
 
-        [Route("logut-a")]
+        
         public IActionResult Logout()
         {
             SessionCheck();
