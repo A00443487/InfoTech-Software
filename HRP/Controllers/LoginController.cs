@@ -13,23 +13,25 @@ namespace HRP.Controllers
     {
         private HrpDbContext obj_hrpdbcontext;
 
-        
-        
-
         public LoginController(HrpDbContext hrpdbcontext)
         {
             obj_hrpdbcontext = hrpdbcontext;
         }
+
+
         public IActionResult Index()
         {
             return View();
         }
 
+        [Route("admin-session")]
         public IActionResult AdminLogin()
         {
             return View();
         }
+
         [HttpPost]
+        [Route("admin-session")]
         public IActionResult AdminLogin(Admin admin)
         {
             if (ModelState.IsValid)
@@ -57,7 +59,7 @@ namespace HRP.Controllers
         public IActionResult Login(User user)
         {
             
-                var check = obj_hrpdbcontext.Polices.Count(a => a.sin == user.sin);
+            var check = obj_hrpdbcontext.Polices.Count(a => a.sin == user.sin);
             if(check > 0)
             {
                 var entry = obj_hrpdbcontext.Users.Count(a => a.sin == user.sin && a.password == user.password);
@@ -86,15 +88,10 @@ namespace HRP.Controllers
                     ViewBag.ErrorMessage = "UserName or Password is wrong";
                     return View("Login");
                 }
-
-
             }
-           
-                
-           
-
-
         }
+
+        [Route("login")]
         public IActionResult Login()
         {
             return View();

@@ -33,7 +33,8 @@ namespace HRP.Controllers
                 Response.Redirect(Url.Action("AdminLogin","Login"));
             }
         }
-        
+
+        [Route("police-list")]
         public IActionResult Index()
         {
             
@@ -57,6 +58,7 @@ namespace HRP.Controllers
             SessionCheck();
             return View("IdExist");
         }
+
         [HttpPost]
         public IActionResult PoliceCreated(int sin,string position, int activation_code)
         {
@@ -140,11 +142,15 @@ namespace HRP.Controllers
             return RedirectToAction("PoliceList");
 
         }
+
+        [Route("police-list-s")]
         public IActionResult PositionList()
         {
             SessionCheck();
             return View(obj_hrpdbcontext.Positions);
         }
+
+        [Route("police-list-c")]
         public IActionResult PositionCreate()
         {
             SessionCheck();
@@ -187,7 +193,8 @@ namespace HRP.Controllers
             return RedirectToAction("PositionList");
         }
 
-        
+
+        [Route("police-pos-update")]
         public IActionResult PositionUpdate(int id)
         {
 
@@ -227,12 +234,16 @@ namespace HRP.Controllers
             }
             return RedirectToAction("PositionList");
         }
-        
+
+
+        [Route("status-list")]
         public IActionResult StatusList()
         {
             SessionCheck();
             return View(obj_hrpdbcontext.Status);
         }
+
+        [Route("status-create")]
         public IActionResult StatusCreate()
         {
             SessionCheck();
@@ -276,7 +287,9 @@ namespace HRP.Controllers
             return RedirectToAction("StatusList");
         }
 
+
         //PENDING
+        [Route("status-update")]
         public IActionResult StatusUpdate(int id)
         {
 
@@ -317,12 +330,16 @@ namespace HRP.Controllers
             }
             return RedirectToAction("StatusList");
         }
-        
+
+
+        [Route("complaint-type")]
         public IActionResult ComplaintTypeList()
         {
             SessionCheck();
             return View(obj_hrpdbcontext.Complaint_Types);
         }
+
+        [Route("complaint-type-create")]
         public IActionResult ComplaintTypeCreate()
         {
             SessionCheck();
@@ -366,11 +383,9 @@ namespace HRP.Controllers
         }
 
         //PENDING
+        [Route("complaint-type-update")]
         public IActionResult ComplaintTypeUpdate(int id)
         {
-
-
-
             SessionCheck();
             ComplaintType complainttype = obj_hrpdbcontext.Complaint_Types.Where(data => data.id == id).FirstOrDefault();
 
@@ -406,15 +421,18 @@ namespace HRP.Controllers
             }
             return RedirectToAction("ComplaintTypeList");
         }
+
+
+        [Route("profil-a")]
         public IActionResult Profile()
         {
-
-
             SessionCheck();
             var username = HttpContext.Session.GetString("AdminSessionId");
             
             return View(obj_hrpdbcontext.Admins.Where(data => data.username == username).FirstOrDefault());
         }
+
+        [Route("password-update")]
         public IActionResult PasswordUpdate()
         {
             return View();
@@ -435,6 +453,8 @@ namespace HRP.Controllers
             
             return RedirectToAction("Index");
         }
+
+        [Route("logout")]
         public IActionResult Logout()
         {
 
