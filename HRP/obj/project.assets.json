@@ -6370,19 +6370,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {}
+    "C:\\Users\\ksyther\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\SMU\\Semester 1\\MCDA 5510 - Software Dev in Business Envir\\Project\\HRP_Final\\HRP\\HRP.csproj",
+      "projectUniqueName": "D:\\SMU\\Gits\\MCDA5510-GIT_IT\\HRP\\HRP.csproj",
       "projectName": "HRP",
-      "projectPath": "C:\\Users\\Dell\\Desktop\\SMU\\Semester 1\\MCDA 5510 - Software Dev in Business Envir\\Project\\HRP_Final\\HRP\\HRP.csproj",
-      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\Desktop\\SMU\\Semester 1\\MCDA 5510 - Software Dev in Business Envir\\Project\\HRP_Final\\HRP\\obj\\",
+      "projectPath": "D:\\SMU\\Gits\\MCDA5510-GIT_IT\\HRP\\HRP.csproj",
+      "packagesPath": "C:\\Users\\ksyther\\.nuget\\packages\\",
+      "outputPath": "D:\\SMU\\Gits\\MCDA5510-GIT_IT\\HRP\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ksyther\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

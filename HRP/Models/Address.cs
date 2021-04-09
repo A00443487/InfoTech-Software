@@ -16,7 +16,7 @@ namespace HRP.Models
         [Display(Name = "Street Name")]
         public string street_name { get; set; }
         [Required(ErrorMessage = "Unit Name Required")]
-        [Display(Name = "Unit Name")]
+        [Display(Name = "Unit")]
         public string unit { get; set; }
         [Required(ErrorMessage = "City Name Required")]
         [Display(Name = "City")]
@@ -25,7 +25,7 @@ namespace HRP.Models
         [Display(Name = "Province")]
         public string province { get; set; }
         [Required(ErrorMessage = "Postal Code Required")]
-        [Display(Name = "Postal Code")]
+        [Display(Name = "Postal COde")]
         public string postal_code { get; set; }
         [Required(ErrorMessage = "Country Name Required")]
         [Display(Name = "Country")]
