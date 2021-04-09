@@ -34,25 +34,25 @@ namespace HRP.Controllers
             }
         }
 
-        [Route("police-list")]
+        
         public IActionResult Index()
         {
             
             return RedirectToAction("PoliceList");
         }
-        [Route("police-details")]
+        
         public IActionResult PoliceList()
         {
             SessionCheck();
             return View(obj_hrpdbcontext.Polices);
         }
-        [Route("police-creation")]
+        
         public IActionResult PoliceCreate()
         {
             SessionCheck();
             return View(obj_hrpdbcontext.Positions);
         }
-        [Route("error-ocured")]
+        
         public IActionResult IdExist()
         {
             SessionCheck();
@@ -93,7 +93,7 @@ namespace HRP.Controllers
             return RedirectToAction("PoliceList");
         }
 
-        [Route("police-update")]
+        
         public IActionResult PoliceUpdate(int id)
         {
             SessionCheck();
@@ -143,14 +143,14 @@ namespace HRP.Controllers
 
         }
 
-        [Route("police-list-s")]
+        
         public IActionResult PositionList()
         {
             SessionCheck();
             return View(obj_hrpdbcontext.Positions);
         }
 
-        [Route("police-list-c")]
+        
         public IActionResult PositionCreate()
         {
             SessionCheck();
@@ -194,7 +194,7 @@ namespace HRP.Controllers
         }
 
 
-        [Route("police-pos-update")]
+        
         public IActionResult PositionUpdate(int id)
         {
 
@@ -236,14 +236,14 @@ namespace HRP.Controllers
         }
 
 
-        [Route("status-list")]
+        
         public IActionResult StatusList()
         {
             SessionCheck();
             return View(obj_hrpdbcontext.Status);
         }
 
-        [Route("status-create")]
+        
         public IActionResult StatusCreate()
         {
             SessionCheck();
@@ -289,7 +289,7 @@ namespace HRP.Controllers
 
 
         //PENDING
-        [Route("status-update")]
+        
         public IActionResult StatusUpdate(int id)
         {
 
@@ -332,14 +332,14 @@ namespace HRP.Controllers
         }
 
 
-        [Route("complaint-type")]
+        
         public IActionResult ComplaintTypeList()
         {
             SessionCheck();
             return View(obj_hrpdbcontext.Complaint_Types);
         }
 
-        [Route("complaint-type-create")]
+        
         public IActionResult ComplaintTypeCreate()
         {
             SessionCheck();
@@ -383,7 +383,7 @@ namespace HRP.Controllers
         }
 
         //PENDING
-        [Route("complaint-type-update")]
+        
         public IActionResult ComplaintTypeUpdate(int id)
         {
             SessionCheck();
@@ -423,7 +423,7 @@ namespace HRP.Controllers
         }
 
 
-        [Route("profil-a")]
+        
         public IActionResult Profile()
         {
             SessionCheck();
@@ -432,10 +432,17 @@ namespace HRP.Controllers
             return View(obj_hrpdbcontext.Admins.Where(data => data.username == username).FirstOrDefault());
         }
 
-        [Route("password-update")]
+        
         public IActionResult PasswordUpdate()
         {
-            return View();
+            try
+            {
+                return View();
+            }
+            catch (Exception)
+            {
+                return View("SomethingWentWrong");
+            }
         }
 
         [HttpPost]
@@ -443,7 +450,7 @@ namespace HRP.Controllers
         public IActionResult PasswordUpdated(string pswd, string cpswd)
         {
             SessionCheck();
-            
+            try { 
                     var updatequery = obj_hrpdbcontext.Admins
               .Where(x => x.username == HttpContext.Session.GetString("AdminSessionId"))
               .FirstOrDefault();
@@ -452,9 +459,14 @@ namespace HRP.Controllers
 
             
             return RedirectToAction("Index");
+            }
+            catch (Exception)
+            {
+                return View("SomethingWentWrong");
+            }
         }
 
-        [Route("logout")]
+        
         public IActionResult Logout()
         {
 

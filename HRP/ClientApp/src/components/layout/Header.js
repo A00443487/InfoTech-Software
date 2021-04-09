@@ -121,11 +121,11 @@ const Header = ({
                         <a href="#ContactUs"> Contact Us</a>
                     </li>
                     <li>
-                        <Link to="admin-session" target="_blank" >Admin Login</Link>
+                        <Link to="Login/AdminLogin" target="_blank" >Admin Login</Link>
                     </li>
 
                     <li>
-                        <Link to="login" target="_blank" >Login</Link>
+                        <Link to="Login/Login" target="_blank" >Login</Link>
                     </li>
 
                     <li>
@@ -134,8 +134,8 @@ const Header = ({
                                               <Link to="#0" onClick={closeMenu}>Registration</Link>
                                               </button>
                                       <div class="dropdown-content">
-                                              <Link to="Civilian-Registration" target="_blank" >Civilian Registration</Link>
-                                              <Link to="Police-Registration" target="_blank" >Officer Registration</Link>
+                                              <Link to="Register/Civilian" target="_blank" >Civilian Registration</Link>
+                                              <Link to="Register/Police" target="_blank" >Officer Registration</Link>
                                       </div>
                                   </div>
                     </li>

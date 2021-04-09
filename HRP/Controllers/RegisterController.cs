@@ -17,7 +17,7 @@ namespace HRP.Controllers
             obj_HrpDbContext = hrp;
         }
         
-        [Route("Police-Registration")]
+        
         public IActionResult Police()
         {
             return View();
@@ -69,7 +69,7 @@ namespace HRP.Controllers
         }
 
 
-        [Route("Civilian-Registration")]
+        
 
         public IActionResult Civilian()
         {

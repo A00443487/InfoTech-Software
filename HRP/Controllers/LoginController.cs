@@ -24,14 +24,14 @@ namespace HRP.Controllers
             return View();
         }
 
-        [Route("admin-session")]
+        
         public IActionResult AdminLogin()
         {
             return View();
         }
 
         [HttpPost]
-        [Route("admin-session")]
+        
         public IActionResult AdminLogin(Admin admin)
         {
             if (ModelState.IsValid)
