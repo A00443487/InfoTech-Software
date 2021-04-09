@@ -91,7 +91,7 @@ namespace HRP.Controllers
             }
         }
 
-        [Route("login")]
+        
         public IActionResult Login()
         {
             return View();
