@@ -79,12 +79,12 @@ const Hero = ({
               aria-controls="video-modal"
               onClick={openModal}
             >
-              <Image
+                          <Image
                               className="has-shadow"
-                              src={require('./../../../src/assets/images/video-placeholder.jpg')}
-                alt="Police"
-                width={896}
-                height={504} />
+                              src={'https://www.vmcdn.ca/f/files/halifaxtoday/images/people/mark-long.png;w=640'}
+                              alt="Hero"
+                              width={896}
+                              height={504} />
             </a>
           </div>
           <Modal
