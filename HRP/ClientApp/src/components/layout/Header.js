@@ -125,7 +125,7 @@ const Header = ({
                     </li>
 
                     <li>
-                        <Link to="Login/Login" target="_blank" >Login UAT </Link>
+                        <Link to="Login/Login" target="_blank" >Login</Link>
                     </li>
 
                     <li>
