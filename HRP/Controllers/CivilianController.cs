@@ -139,7 +139,57 @@ namespace HRP.Controllers
             HttpContext.Session.Remove("CivilianSessionId");
             return this.RedirectToAction("Login", "Login");
         }
+        
+        public IActionResult Profile()
+        {
+            SessionCheck();
+            
+            RegisterVM registerVM = new RegisterVM();
+            registerVM.user = obj_hrpdbcontext.Users.Where(x => x.sin == sin).FirstOrDefault();
+            
+            registerVM.address = obj_hrpdbcontext.Address.Where(x => x.id == registerVM.user.address_id).FirstOrDefault();
+            return View(registerVM);
+        }
+
+        [HttpPost]
+        public IActionResult UpdateProfile(RegisterVM rVM)
+        {
+            SessionCheck();
+            
+            
+            
+            var address_data = obj_hrpdbcontext.Address.Update(rVM.address);
+            obj_hrpdbcontext.SaveChanges();
+            
+
+            
+            rVM.user.is_police = "no";
+            rVM.user.address_id = rVM.address.id;
+             
+            obj_hrpdbcontext.Users.Update(rVM.user);
+            obj_hrpdbcontext.SaveChanges();
+            var us_data = rVM.user;
+
+            return RedirectToAction("Profile");
+        }
+
+        public IActionResult PasswordUpdate()
+        {
+            return View();
+        }
+
+        [HttpPost]
+
+        public IActionResult PasswordUpdated(string pswd, string cpswd)
+        {
+            SessionCheck();
+
+            var updatequery = obj_hrpdbcontext.Users.Where(x => x.sin == sin).FirstOrDefault();
+            updatequery.password = pswd;
+            obj_hrpdbcontext.SaveChanges();
 
 
+            return RedirectToAction("Profile");
+        }
     }
 }

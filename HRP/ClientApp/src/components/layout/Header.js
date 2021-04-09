@@ -131,11 +131,11 @@ const Header = ({
                     <li>
                                   <div class="dropdown">
                                           <button class="dropbtn">
-                                        <Link to="#0" onClick={closeMenu}>Civilian/Officer Registeration</Link>
+                                              <Link to="#0" onClick={closeMenu}>Registration</Link>
                                               </button>
                                       <div class="dropdown-content">
-                                              <Link to="Register/Civilian" target="_blank" >Civilian Registeration</Link>
-                                              <Link to="Register/Police" target="_blank" >Officer Registeration</Link>
+                                              <Link to="Register/Civilian" target="_blank" >Civilian Registration</Link>
+                                              <Link to="Register/Police" target="_blank" >Officer Registration</Link>
                                       </div>
                                   </div>
                     </li>

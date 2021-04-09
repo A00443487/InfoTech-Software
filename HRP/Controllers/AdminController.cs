@@ -33,30 +33,32 @@ namespace HRP.Controllers
                 Response.Redirect(Url.Action("AdminLogin","Login"));
             }
         }
+
         
         public IActionResult Index()
         {
             
             return RedirectToAction("PoliceList");
         }
-        [Route("police-details")]
+        
         public IActionResult PoliceList()
         {
             SessionCheck();
             return View(obj_hrpdbcontext.Polices);
         }
-        [Route("police-creation")]
+        
         public IActionResult PoliceCreate()
         {
             SessionCheck();
             return View(obj_hrpdbcontext.Positions);
         }
-        [Route("error-ocured")]
+        
         public IActionResult IdExist()
         {
             SessionCheck();
             return View("IdExist");
         }
+
         [HttpPost]
         public IActionResult PoliceCreated(int sin,string position, int activation_code)
         {
@@ -91,7 +93,7 @@ namespace HRP.Controllers
             return RedirectToAction("PoliceList");
         }
 
-        [Route("police-update")]
+        
         public IActionResult PoliceUpdate(int id)
         {
             SessionCheck();
@@ -140,11 +142,15 @@ namespace HRP.Controllers
             return RedirectToAction("PoliceList");
 
         }
+
+        
         public IActionResult PositionList()
         {
             SessionCheck();
             return View(obj_hrpdbcontext.Positions);
         }
+
+        
         public IActionResult PositionCreate()
         {
             SessionCheck();
@@ -187,6 +193,7 @@ namespace HRP.Controllers
             return RedirectToAction("PositionList");
         }
 
+
         
         public IActionResult PositionUpdate(int id)
         {
@@ -227,12 +234,16 @@ namespace HRP.Controllers
             }
             return RedirectToAction("PositionList");
         }
+
+
         
         public IActionResult StatusList()
         {
             SessionCheck();
             return View(obj_hrpdbcontext.Status);
         }
+
+        
         public IActionResult StatusCreate()
         {
             SessionCheck();
@@ -276,7 +287,9 @@ namespace HRP.Controllers
             return RedirectToAction("StatusList");
         }
 
+
         //PENDING
+        
         public IActionResult StatusUpdate(int id)
         {
 
@@ -317,12 +330,16 @@ namespace HRP.Controllers
             }
             return RedirectToAction("StatusList");
         }
+
+
         
         public IActionResult ComplaintTypeList()
         {
             SessionCheck();
             return View(obj_hrpdbcontext.Complaint_Types);
         }
+
+        
         public IActionResult ComplaintTypeCreate()
         {
             SessionCheck();
@@ -366,11 +383,9 @@ namespace HRP.Controllers
         }
 
         //PENDING
+        
         public IActionResult ComplaintTypeUpdate(int id)
         {
-
-
-
             SessionCheck();
             ComplaintType complainttype = obj_hrpdbcontext.Complaint_Types.Where(data => data.id == id).FirstOrDefault();
 
@@ -406,18 +421,28 @@ namespace HRP.Controllers
             }
             return RedirectToAction("ComplaintTypeList");
         }
+
+
+        
         public IActionResult Profile()
         {
-
-
             SessionCheck();
             var username = HttpContext.Session.GetString("AdminSessionId");
             
             return View(obj_hrpdbcontext.Admins.Where(data => data.username == username).FirstOrDefault());
         }
+
+        
         public IActionResult PasswordUpdate()
         {
-            return View();
+            try
+            {
+                return View();
+            }
+            catch (Exception)
+            {
+                return View("SomethingWentWrong");
+            }
         }
 
         [HttpPost]
@@ -425,7 +450,7 @@ namespace HRP.Controllers
         public IActionResult PasswordUpdated(string pswd, string cpswd)
         {
             SessionCheck();
-            
+            try { 
                     var updatequery = obj_hrpdbcontext.Admins
               .Where(x => x.username == HttpContext.Session.GetString("AdminSessionId"))
               .FirstOrDefault();
@@ -434,7 +459,14 @@ namespace HRP.Controllers
 
             
             return RedirectToAction("Index");
+            }
+            catch (Exception)
+            {
+                return View("SomethingWentWrong");
+            }
         }
+
+        
         public IActionResult Logout()
         {
 

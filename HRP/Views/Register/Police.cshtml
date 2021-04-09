@@ -3,7 +3,250 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+    Layout = "~/Views/Shared/_CloseLayout.cshtml";
 }
+
+
+
+@section scripts{
+    <script>
+        function verifyElements() {
+
+            var result = true;
+
+            result = result && verify_SIN();
+            result = result && verify_Fname();
+            result = result && verify_Lname();
+            result = result && verify_Email();
+            result = result && verify_Password();
+            result = result && verify_Contact();
+            result = result && verify_DOB();
+            result = result && verify_DoorNo();
+            result = result && verify_StreetName();
+            result = result && verify_City();
+            result = result && verify_UnitName();
+            result = result && verify_Province();
+            result = result && verify_PostalCode();
+            result = result && verify_Country();
+
+            return result;
+        }
+
+        function verify_SIN() {
+            var inp_sin = document.getElementById("inp_sin");
+            var msgID = document.getElementById("messageSIN");
+
+            if (inp_sin.value == "") {
+                msgID.innerHTML = "**Please enter your SIN number.";
+                return false;
+            } else if (inp_sin.value.length != 9) {
+                msgID.innerHTML = "**SIN length must be exact 9 characters";
+                return false;
+            }
+
+            msgID.innerHTML = "";
+            return true;
+        }
+
+
+        function verify_Fname() {
+            var elementVal = document.getElementById("FName");
+            var msgID = document.getElementById("messageFName");
+
+            if (elementVal.value.length == 0) {
+                msgID.innerHTML = "**Name Field is empty.";
+                return false;
+            }
+
+            msgID.innerHTML = "";
+            return true;
+        }
+
+        function verify_Lname() {
+            var elementVal = document.getElementById("LName");
+            var msgID = document.getElementById("messageLName");
+
+            if (elementVal.value.length == 0) {
+                msgID.innerHTML = "**Name Field is empty.";
+                return false;
+            }
+
+            msgID.innerHTML = "";
+            return true;
+        }
+
+        function verify_Email() {
+            var elementVal = document.getElementById("Email");
+            var msgID = document.getElementById("messageEmail");
+
+            var mailformat = "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$";
+
+            if (!elementVal.value.match(mailformat))
+            {
+                msgID.innerHTML = "**Please enter a valid email address.";
+                return false;
+            }
+
+            msgID.innerHTML = "";
+            return true;
+        }
+
+        function verify_Password() {
+            var elementVal = document.getElementById("Password");
+            var msgID = document.getElementById("messagePassword");
+
+            var passw = "^((?=.*[^a-zA-Z])(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{8,})$";
+
+            if (!elementVal.value.match(passw))
+            {
+                msgID.innerHTML = "**Password must be at least 8 characters, contain at least one digit and one alphabetic character, and must not contain special characters.";
+                return false;
+            }
+
+            msgID.innerHTML = "";
+            return true;
+        }
+
+        function verify_Contact() {
+            var elementVal = document.getElementById("Contact");
+            var msgID = document.getElementById("messageContact");
+
+
+            //var phoneno = "^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$";
+            //if (!elementVal.value.match(phoneno))
+            if (elementVal.value.length != 10)
+            {
+                msgID.innerHTML = "**Please enter a valid contact number.";
+                return false;
+            }
+
+            msgID.innerHTML = "";
+            return true;
+        }
+
+        function verify_DOB() {
+            var elementVal = document.getElementById("DOB");
+            var msgID = document.getElementById("messageDOB");
+
+            if (elementVal.value.length == 0) {
+                msgID.innerHTML = "**Please select a valid date.";
+                return false;
+            }
+
+            msgID.innerHTML = "";
+            return true;
+        }
+
+        function verify_DoorNo() {
+            var elementVal = document.getElementById("DoorNo");
+            var msgID = document.getElementById("messageDoorNo");
+
+            if (elementVal.value.length <= 0) {
+                msgID.innerHTML = "**Please enter a valid door number.";
+                return false;
+            }
+
+            msgID.innerHTML = "";
+            return true;
+        }
+
+        function verify_StreetName() {
+            var elementVal = document.getElementById("StreetName");
+            var msgID = document.getElementById("messageStreetName");
+
+            if (elementVal.value.length == 0) {
+                msgID.innerHTML = "**Please enter a valid street name.";
+                return false;
+            }
+
+            msgID.innerHTML = "";
+            return true;
+        }
+
+        function verify_UnitName() {
+            var elementVal = document.getElementById("UnitName");
+            var msgID = document.getElementById("messageUnitName");
+
+            if (elementVal.value.length == 0) {
+                msgID.innerHTML = "**Please enter a valid unit name.";
+                return false;
+            }
+
+            msgID.innerHTML = "";
+            return true;
+        }
+
+        function verify_City() {
+            var elementVal = document.getElementById("City");
+            var msgID = document.getElementById("messageCity");
+
+            //var letters = "[a-zA-Z]";
+            if ( (elementVal.value.length == 0)) {
+                msgID.innerHTML = "**Please enter a valid city name.";
+                return false;
+            }
+
+            msgID.innerHTML = "";
+            return true;
+        }
+
+        function verify_Province() {
+            var elementVal = document.getElementById("Province");
+            var msgID = document.getElementById("messageProvince");
+
+            var letters = "^[A-Za-z]+$";
+            if (!elementVal.value.match(letters)
+                && (elementVal.value.length == 0)) {
+                msgID.innerHTML = "**Please enter a valid Province name.";
+                return false;
+            }
+
+            msgID.innerHTML = "";
+            return true;
+        }
+
+        function verify_Country() {
+            var elementVal = document.getElementById("Country");
+            var msgID = document.getElementById("messageCountry");
+
+            var letters = "^[A-Za-z]+$";
+
+            if (!elementVal.value.match(letters)
+                && (elementVal.value.length == 0)) {
+                msgID.innerHTML = "**Please enter a valid Country name.";
+                return false;
+            }
+
+            msgID.innerHTML = "";
+            return true;
+        }
+
+        function verify_PostalCode() {
+            var elementVal = document.getElementById("PostalCode");
+            var msgID = document.getElementById("messagePostalCode");
+
+            var regex = "^\d{5}-\d{4}|\d{5}|[A-Z]\d[A-Z] \d[A-Z]\d$";
+          //if (!elementVal.value.match(regex)) {
+          //    msgID.innerHTML = "**Please enter a valid Postal Code.";
+          //    return false;
+          //}
+          //else
+            if (elementVal.value.length == 0) {
+                msgID.innerHTML = "**Please enter a valid Postal Code.";
+                return false;
+            }
+
+            msgID.innerHTML = "";
+            return true;
+        }
+
+        function verify_IsIdNotEmpty(elementVal) {
+            return elementVal.value.length == 0;
+        }
+
+    </script>
+}
+
 
 
 <h1>Police Officer Registration Form</h1>
@@ -11,11 +254,11 @@
 <div class="row">
     <div class="col-md-8">
         <section>
-            <form method="post" asp-controller="Register" asp-action="Police">
+
+
+            <form method="post" asp-controller="Register" asp-action="PoliceRegister">
                 @Html.AntiForgeryToken()
 
-
-                <hr />
 
                 @Html.ValidationSummary(true, "", new { @class = "text-danger" })
 
@@ -23,114 +266,227 @@
                     <div class="form-group">
                         @Html.LabelFor(m => m.user.sin, new { @class = "col-md-2 control-label" })
                         <div class="col-md-6">
-                            @Html.TextBoxFor(m => m.user.sin, new { @class = "form-control", @type = "number" })
+
+                            @Html.TextBoxFor(m => m.user.sin, new { @class = "form-control", @type = "number", id = "inp_sin" })
+                            <span id="messageSIN" style="color:red"> </span>
                             @*@Html.ValidationMessageFor(m => m.username, "", new { @class = "text-danger" })*@
                         </div>
                     </div>
-
-                    <div class="form-group">
-                        @Html.LabelFor(m => m.user.fname, new { @class = "col-md-2 control-label" })
-                        <div class="col-md-6">
-                            @Html.TextBoxFor(m => m.user.fname, new { @class = "form-control" })
-                            @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
-                        </div>
-                    </div>
                 </div>
+
                 <div class="form-group">
-                    @Html.LabelFor(m => m.user.lname, new { @class = "col-md-2 control-label" })
-                    <div class="col-md-10">
-                        @Html.TextBoxFor(m => m.user.lname, new { @class = "form-control" })
+                    @Html.LabelFor(m => m.user.fname, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-6">
+                        @Html.TextBoxFor(m => m.user.fname, new
+                        {
+                            @class = "form-control",
+                            id = "FName"
+                        })
+                        <span id="messageFName" style="color:red"> </span>
                         @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
                 </div>
+
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.user.lname, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(m => m.user.lname, new
+                        {
+                            @class = "form-control",
+                            id = "LName"
+                        })
+                        <span id="messageLName" style="color:red"> </span>
+                        @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
+                    </div>
+                </div>
+
+
                 <div class="form-group">
                     @Html.LabelFor(m => m.user.email, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
-                        @Html.TextBoxFor(m => m.user.email, new { @class = "form-control" })
+                        <span id="messageEmail" style="color:red"> </span>
+                        @Html.TextBoxFor(m => m.user.email, new
+                        {
+                            @class = "form-control",
+                            id = "Email"
+                        })
                         @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
                 </div>
                 <div class="form-group">
                     @Html.LabelFor(m => m.user.password, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
-                        @Html.PasswordFor(m => m.user.password, new { @class = "form-control" })
+
+                        <p>
+                            Password must be at least 8 characters, contain at least one digit and one alphabetic character, and must not contain special characters.
+                        </p>
+
+
+                        @Html.PasswordFor(m => m.user.password, new
+                        {
+                            @class = "form-control",
+                            id = "Password"
+                        })
+                        <span id="messagePassword" style="color:red"> </span>
                         @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
                 </div>
                 <div class="form-group">
                     @Html.LabelFor(m => m.user.contact, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
-                        @Html.TextBoxFor(m => m.user.contact, new { @class = "form-control", @type = "number" })
+                        @Html.TextBoxFor(m => m.user.contact, new
+                        {
+                            @class = "form-control",
+                            @type = "number",
+                            id = "Contact"
+                        })
+                        <span id="messageContact" style="color:red"> </span>
                         @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
                 </div>
-                <div class="form-group">
+
+
+
+
+
+                <div class="form-group" ,
+                     id="Gender">
                     @Html.LabelFor(m => m.user.gender, new { @class = "col-md-2 control-label" })
                     @Html.RadioButtonFor(m => m.user.gender, "M", false)@Html.Label("Male")
                     @Html.RadioButtonFor(m => m.user.gender, "F", false)@Html.Label("Female")
                     @Html.RadioButtonFor(m => m.user.gender, "O", false)@Html.Label("Others")
                 </div>
+
+
+
+
                 <div class="form-group">
                     @Html.LabelFor(m => m.user.dob, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
-                        @Html.TextBoxFor(m => m.user.dob, new { @class = "form-control"  })
+
+                        @Html.TextBoxFor(m => m.user.dob, new
+                   {
+                       @class = "form-control",
+                       @type = "date",
+                       id = "DOB"
+                   })
+                        <span id="messageDOB" style="color:red"> </span>
+
+
                         @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
                 </div>
+
                 <div class="form-group">
                     @Html.LabelFor(m => m.address.door_no, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
-                        @Html.TextBoxFor(m => m.address.door_no, new { @class = "form-control" })
+                        @Html.TextBoxFor(m => m.address.door_no, new
+                           {
+                               @class = "form-control",
+                               @type = "number",
+                               id = "DoorNo"
+                           })
+                        <span id="messageDoorNo" style="color:red"> </span>
                         @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
                 </div>
+
                 <div class="form-group">
                     @Html.LabelFor(m => m.address.street_name, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
-                        @Html.TextBoxFor(m => m.address.street_name, new { @class = "form-control" })
+                        @Html.TextBoxFor(m => m.address.street_name, new
+                        {
+                            @class = "form-control",
+                            id = "StreetName"
+                        })
+                        <span id="messageStreetName" style="color:red"> </span>
                         @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
                 </div>
+
                 <div class="form-group">
                     @Html.LabelFor(m => m.address.unit, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
-                        @Html.TextBoxFor(m => m.address.unit, new { @class = "form-control" })
+                        @Html.TextBoxFor(m => m.address.unit, new
+                        {
+                            @class = "form-control",
+                            id = "UnitName"
+                        })
+                        <span id="messageUnitName" style="color:red"> </span>
                         @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
                 </div>
+
                 <div class="form-group">
                     @Html.LabelFor(m => m.address.city, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
-                        @Html.TextBoxFor(m => m.address.city, new { @class = "form-control" })
+                        @Html.TextBoxFor(m => m.address.city, new
+                        {
+                            @class = "form-control",
+                            id = "City"
+                        })
+                        <span id="messageCity" style="color:red"> </span>
                         @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
                 </div>
+
                 <div class="form-group">
                     @Html.LabelFor(m => m.address.province, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
-                        @Html.TextBoxFor(m => m.address.province, new { @class = "form-control" })
+                        @Html.TextBoxFor(m => m.address.province, new
+                        {
+                            @class = "form-control",
+                            id = "Province"
+                        })
+                        <span id="messageProvince" style="color:red"> </span>
                         @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
                 </div>
+
                 <div class="form-group">
                     @Html.LabelFor(m => m.address.postal_code, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
-                        @Html.TextBoxFor(m => m.address.postal_code, new { @class = "form-control" })
+                        @Html.TextBoxFor(m => m.address.postal_code, new
+                        {
+                            @class = "form-control",
+                            id = "PostalCode"
+                        })
+                        <span id="messagePostalCode" style="color:red"> </span>
                         @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
                 </div>
+
                 <div class="form-group">
                     @Html.LabelFor(m => m.address.country, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
-                        @Html.TextBoxFor(m => m.address.country, new { @class = "form-control" })
+                        @Html.TextBoxFor(m => m.address.country, new
+                        {
+                            @class = "form-control",
+                            id = "Country"
+                        })
+                        <span id="messageCountry" style="color:red"> </span>
                         @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
                 </div>
+
+
                 <div class="form-group">
-                    <div class="col-md-offset-2 col-md-10">
-                        <button asp-page-handler="LogIn" class="btn btn-default">Log in</button>
+                    @Html.LabelFor(m => m.police.activation_code, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(m => m.police.activation_code, new { @class = "form-control", @type = "number", @required = "required" })
+                        @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
                 </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <button type="submit"  onclick="return verifyElements()" class="btn btn-default">REGISTER</button>
+
+                    </div>
+                </div>
+
+
             </form>
         </section>
     </div>
