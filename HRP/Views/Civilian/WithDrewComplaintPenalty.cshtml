@@ -3,57 +3,298 @@
 @{
 
     Layout = "~/Views/Shared/_ValidationScriptsPartial.cshtml";
+}
+
+
+
+
+@section scripts{
+    <script>
+        function verifyElements() {
+
+            var result = true;
+
+            result = result && verify_CVV();
+
+            return result;
+        }
+
+        function verify_CVV() {
+            var inpElement = document.getElementById("CVV");
+            var msgID = document.getElementById("messageCVV");
+
+            if (inpElement.value.length == 0) {
+                msgID.innerHTML = "**Please enter a CVV.";
+                return false;
+            } else
+                if (inpElement.value.length != 3) {
+                    msgID.innerHTML = "**Please enter a valid CVV.";
+                    return false;
+                }
+
+            msgID.innerHTML = "";
+            return true;
+        }
+
+        function verify_CName() {
+            var inpElement = document.getElementById("CName");
+            var msgID = document.getElementById("messageCName");
+
+            if (inpElement.value.length == 0) {
+                msgID.innerHTML = "**Please enter the Name on the Credit/Debit.";
+                return false;
+            }
+            //else
+            //    if (inpElement.value.length != 3) {
+            //        msgID.innerHTML = "**Please enter a valid Name on the Credit/Debit.";
+            //        return false;
+            //    }
+
+            msgID.innerHTML = "";
+            return true;
+        }
+
+        function validateAlphabet(value) {
+            var regexp = /^[a-zA-Z ]*$/;
+            return regexp.test(value);
+        }
+
+
+        function alphaOnly(event) {
+            var key = event.keyCode;
+            return ((key >= 65 && key <= 90) || key == 8);
+        };
+
+
+        function ValidateNumber(event) {
+
+            var theEvent = event || window.event;
+            var key = theEvent.keyCode || theEvent.which;
+            key = String.fromCharCode(key);
+            var regex = /[0-9]|\./;
+
+            if (!regex.test(key)) {
+                theEvent.preventDefault ? theEvent.preventDefault() : (theEvent.returnValue = false);
+            }
+        }
+
+        function ValidateCreditCardNum(event) {
+
+            var theEvent = event || window.event;
+            var key = theEvent.keyCode || theEvent.which;
+            key = String.fromCharCode(key);
+            var regex = /[0-9]|\-/;
+
+            if (!regex.test(key)) {
+                theEvent.preventDefault ? theEvent.preventDefault() : (theEvent.returnValue = false);
+            }
+        }
+
+        function ValidateDateMonthYear(event) {
+
+            var theEvent = event || window.event;
+            var key = theEvent.keyCode || theEvent.which;
+            key = String.fromCharCode(key);
+            //var regex = /(0[1-9]|1[0-2])\/?([0-9]{4}|[0-9]{2})/;
+            var regex = /(?:0?[1-9]|1[0-2]) *\/ *[1-9][0-9]/;
+            //var regex = /[0-9]|\//;
+
+            if (!regex.test(key)) {
+                theEvent.preventDefault ? theEvent.preventDefault() : (theEvent.returnValue = false);
+            }
+        }
+
+        function ValidateText(event) {
+
+            var theEvent = event || window.event;
+            var key = theEvent.keyCode || theEvent.which;
+            key = String.fromCharCode(key);
+            var regex = /[a-zA-Z]|/;
+
+            if (!regex.test(key)) {
+                theEvent.preventDefault ? theEvent.preventDefault() : (theEvent.returnValue = false);
+            }
+        }
+
+
+        function formatCreditCardOnKey(event) {
+            //on keyup, check for backspace to skip processing
+            var code = (event.which) ? event.which : event.keyCode;
+            if (code != 8)
+                formatCreditCard();
+            else {
+                //trim whitespace from end; trimEnd() doesn't work in IE
+                document.getElementById("cardNumber").value = document.getElementById("cardNumber").value.replace(/\s+$/, '');
+            }
+
+        }
+
+
+
+        function formatCreditCard() {
+
+            var cardField = document.getElementById("cardNumber");
+            //remove all non-numeric characters
+            var realNumber = cardField.value.replace(/\D/g, '');
+
+            var cardLen = getCardType(realNumber)
+
+            var newNumber = "";
+            for (var x = 1; x <= realNumber.length; x++) {
+                //make sure input is a digit
+                if (isNumeric(realNumber.charAt(x - 1)))
+                    newNumber += realNumber.charAt(x - 1);
+                //add space every 4 numeric digits
+                if (cardLen == 16) {
+                    if (x % 4 == 0 && x > 0 && x < 15)
+                        newNumber += " ";
+                    cardField.maxLength= 19
+                }
+                else if(cardLen == 15)
+                {
+                    if (
+                            (x == 4 || x == 10) &&
+                            x > 0 &&
+                            x < 14
+                        )
+                        newNumber += " ";
+                    cardField.maxLength= 17
+                }
+                else
+                    cardField.maxLength= 4
+            }
+            cardField.value = newNumber;
+        }
+
+        function isNumeric(char) {
+            return ('0123456789'.indexOf(char) !== -1);
+        }
+
+        function getCardType(val) {
+
+            var cardtype = "Detecting Card"
+            var msgID = document.getElementById("messageCCType");
+
+            if (val.length == 0) {
+                msgID.innerHTML = "";
+            }
+            else
+            {
+                msgID.innerHTML = cardtype;
             }
 
 
-    <h2>Complaint Withdraw HRP-Penality</h2>
-    <p>Withdraw complaints leads loss of time and energy spent for the case, it our regulation for the civilian to pay for the penality for withdraw. Hence, next time complaint for fun/mistake will not occur. We appreciate your responsible act. </p>
-    <div class="row">
-        <div class="col-75">
-            <div class="container">
-                <form method="post" asp-controller="Civilian" asp-action="WithDrewComplaint">>
 
-                    
-                    <div class="col-50">
-                        <h3>Payment</h3>
-                        <label for="fname">Accepted Cards</label>
-                        <div class="icon-container">
-                            <i class="fa fa-cc-visa" style="color:navy;"></i>
-                            <i class="fa fa-cc-amex" style="color:blue;"></i>
-                            <i class="fa fa-cc-mastercard" style="color:red;"></i>
-                            <i class="fa fa-cc-discover" style="color:orange;"></i>
-                        </div>
-                        <input type="number" id="id" name="id" value="@Model.id" hidden>
-                        <label for="cname">Name on Card</label>
-                        <input type="text" id="cname" name="cname" placeholder="John More Doe">
-                        <label for="ccnum">Credit card number</label>
-                        <input type="text" id="ccnum" name="ccnum" placeholder="1111-2222-3333-4444">
-                        <label for="expmonth">Exp Date</label>
-                        <input type="text" id="exp" name="exp" placeholder="02/12">
-                        
-                        <div class="row">
+            if (val.charAt(0) == '5') {
+                if (
+                    (val.charAt(1) == '1') ||
+                    (val.charAt(1) == '2') ||
+                    (val.charAt(1) == '3') ||
+                    (val.charAt(1) == '4') ||
+                    (val.charAt(1) == '5')
+                    )
+                    {
+                        msgID.innerHTML = "Mastercard";
+                        return 16;
+                    }
+            }
+            else
+                if (val.charAt(0) == '4') {
+                    msgID.innerHTML = "Visa";
+                    return 16;
+                } else
+                if (val.charAt(0) == '3') {
+                    if (
+                        (val.charAt(1) == '4') ||
+                        (val.charAt(1) == '7')
+                    ) {
+                        msgID.innerHTML = "Amex";
+                        return 15;
+                    }
+                } else
+                if (val.length > 3)
+                {
+                    msgID.innerHTML = "Invalid Card";
+                    return 4;
+                }
+        }
+    </script>
+}
 
-                            <div class="col-50">
-                                <label for="cvv">CVV</label>
-                                <input type="text" id="cvv" name="cvv" placeholder="352">
-                            </div>
+
+<h2>Complaint Withdraw HRP-Penality</h2>
+<p>Withdraw complaints leads loss of time and energy spent for the case, it our regulation for the civilian to pay for the penality for withdraw. Hence, next time complaint for fun/mistake will not occur. We appreciate your responsible act. </p>
+<div class="row">
+    <div class="col-75">
+        <div class="container">
+            <form method="post" asp-controller="Civilian00" asp-action="WithDrewComplaint00">
+                >
+
+
+                <div class="col-50">
+                    <h3>Payment</h3>
+                    <label for="fname">Accepted Cards</label>
+                    <div class="icon-container">
+                        <i class="fa fa-cc-visa" style="color:navy;"></i>
+                        <i class="fa fa-cc-amex" style="color:blue;"></i>
+                        <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                        <i class="fa fa-cc-discover" style="color:orange;"></i>
+                    </div>
+                    <input type="number" id="id" name="id" value="@Model.id" hidden>
+
+
+                    <label for="cname">Name on Card</label>
+                    <input type="text" id="CName" name="CName" placeholder="John More Doe"
+                           onkeypress="ValidateText(event);">
+
+                    <span id="messageCName" style="color:red"> </span>
+
+                    <label for="ccnum">Credit card number</label>
+                    <span id="messageCCType" style="color:blue"> </span>
+                    <input type="text" id="cardNumber" maxlength="19" placeholder="1111 2222 3333 4444"
+                           onKeyUp="formatCreditCardOnKey(event)"
+                           onBlur="formatCreditCard()"
+                           onFocus="formatCreditCard()" />
+                    <span id="messageCCNUM" style="color:red"> </span>
+
+
+
+                    <label for="expmonth">Exp Date</label>
+
+                    <input type="month" id="ExpiryDate" name="exp" onkeydown="return false"
+                           min="2016-03" max="2031-03" value="2023-03">
+
+
+
+                    <span id="messageExpiryDate" style="color:red"> </span>
+
+                    <div class="row">
+
+                        <div class="col-50">
+                            <label for="cvv">CVV</label>
+                            <input type="number" id="CVV" name="cvv" placeholder="352"
+                                   onKeyPress="if(this.value.length==3) return false;">
+                            <span id="messageCVV" style="color:red"> </span>
                         </div>
                     </div>
+                </div>
 
-                    
-                    <input type="submit" value="Continue to PAY" class="btn">
-                </form>
-            </div>
-        </div>
-        <div class="col-25">
-            <div class="container">
-                <h6>Complaint ID @Model.id Charging Details</h6>
-                <p>Reporting Charge <span class="price">$14</span></p>
-                <p>Cancellation Fee <span class="price">$6</span></p>
-                <p>Service Tax <span class="price">$0.25</span></p>
-                <hr>
-                <p>Total <span class="price" style="color:black"><b>$20.25</b></span></p>
-            </div>
+
+
+
+                <input type="submit" onclick="return verifyElements()" value="Continue to PAY" class="btn">
+            </form>
         </div>
     </div>
+    <div class="col-25">
+        <div class="container">
+            <h6>Complaint ID @Model.id Charging Details</h6>
+            <p>Reporting Charge <span class="price">$14</span></p>
+            <p>Cancellation Fee <span class="price">$6</span></p>
+            <p>Service Tax <span class="price">$0.25</span></p>
+            <hr>
+            <p>Total <span class="price" style="color:black"><b>$20.25</b></span></p>
+        </div>
+    </div>
+</div>
 

@@ -12,9 +12,9 @@
 
             var result = true;
 
-            result = result && verify_SIN();
             result = result && verify_Fname();
             result = result && verify_Lname();
+            result = result && verify_SIN();
             result = result && verify_Email();
             result = result && verify_Password();
             result = result && verify_Contact();
@@ -79,8 +79,7 @@
 
             var mailformat = "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$";
 
-            if (!elementVal.value.match(mailformat))
-            {
+            if (!elementVal.value.match(mailformat)) {
                 msgID.innerHTML = "**Please enter a valid email address.";
                 return false;
             }
@@ -88,15 +87,14 @@
             msgID.innerHTML = "";
             return true;
         }
-        
+
         function verify_Password() {
             var elementVal = document.getElementById("Password");
             var msgID = document.getElementById("messagePassword");
 
             var passw = "^((?=.*[^a-zA-Z])(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{8,})$";
 
-            if (!elementVal.value.match(passw))
-            {
+            if (!elementVal.value.match(passw)) {
                 msgID.innerHTML = "**Password must be at least 8 characters, contain at least one digit and one alphabetic character, and must not contain special characters.";
                 return false;
             }
@@ -104,7 +102,7 @@
             msgID.innerHTML = "";
             return true;
         }
-        
+
         function verify_Contact() {
             var elementVal = document.getElementById("Contact");
             var msgID = document.getElementById("messageContact");
@@ -112,8 +110,7 @@
 
             //var phoneno = "^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$";
             //if (!elementVal.value.match(phoneno))
-            if (elementVal.value.length != 10)
-            {
+            if (elementVal.value.length != 10) {
                 msgID.innerHTML = "**Please enter a valid contact number.";
                 return false;
             }
@@ -147,7 +144,7 @@
             msgID.innerHTML = "";
             return true;
         }
-        
+
         function verify_StreetName() {
             var elementVal = document.getElementById("StreetName");
             var msgID = document.getElementById("messageStreetName");
@@ -160,7 +157,7 @@
             msgID.innerHTML = "";
             return true;
         }
-        
+
         function verify_UnitName() {
             var elementVal = document.getElementById("UnitName");
             var msgID = document.getElementById("messageUnitName");
@@ -173,13 +170,13 @@
             msgID.innerHTML = "";
             return true;
         }
-        
+
         function verify_City() {
             var elementVal = document.getElementById("City");
             var msgID = document.getElementById("messageCity");
 
             //var letters = "[a-zA-Z]";
-            if ( (elementVal.value.length == 0)) {
+            if ((elementVal.value.length == 0)) {
                 msgID.innerHTML = "**Please enter a valid city name.";
                 return false;
             }
@@ -187,7 +184,7 @@
             msgID.innerHTML = "";
             return true;
         }
-        
+
         function verify_Province() {
             var elementVal = document.getElementById("Province");
             var msgID = document.getElementById("messageProvince");
@@ -202,7 +199,7 @@
             msgID.innerHTML = "";
             return true;
         }
-        
+
         function verify_Country() {
             var elementVal = document.getElementById("Country");
             var msgID = document.getElementById("messageCountry");
@@ -224,11 +221,11 @@
             var msgID = document.getElementById("messagePostalCode");
 
             var regex = "^\d{5}-\d{4}|\d{5}|[A-Z]\d[A-Z] \d[A-Z]\d$";
-          //if (!elementVal.value.match(regex)) {
-          //    msgID.innerHTML = "**Please enter a valid Postal Code.";
-          //    return false;
-          //}
-          //else
+            //if (!elementVal.value.match(regex)) {
+            //    msgID.innerHTML = "**Please enter a valid Postal Code.";
+            //    return false;
+            //}
+            //else
             if (elementVal.value.length == 0) {
                 msgID.innerHTML = "**Please enter a valid Postal Code.";
                 return false;
@@ -242,6 +239,38 @@
             return elementVal.value.length == 0;
         }
 
+        function verifyKeyPress(event) {
+            return (
+                (event.charCode >= 65 && event.charCode <= 90) ||
+                (event.charCode >= 97 && event.charCode <= 122) ||
+                (event.charCode == 32))
+        }
+
+
+
+        function ValidateNumber(event) {
+
+            var theEvent = event || window.event;
+            var key = theEvent.keyCode || theEvent.which;
+            key = String.fromCharCode(key);
+            var regex = /[0-9]|\./;
+
+            if (!regex.test(key)) {
+                theEvent.preventDefault ? theEvent.preventDefault() : (theEvent.returnValue = false);
+            }
+        }
+
+        function ValidateText(event) {
+
+            var theEvent = event || window.event;
+            var key = theEvent.keyCode || theEvent.which;
+            key = String.fromCharCode(key);
+            var regex = /[a-zA-Z]|\./;
+
+            if (!regex.test(key)) {
+                theEvent.preventDefault ? theEvent.preventDefault() : (theEvent.returnValue = false);
+            }
+        }
     </script>
 }
 
@@ -274,10 +303,13 @@
                     @Html.LabelFor(m => m.user.fname, new { @class = "col-md-2 control-label" })
                     <div class="col-md-6">
                         @Html.TextBoxFor(m => m.user.fname, new
-                        {
-                            @class = "form-control",
-                            id = "FName"
-                        })
+                   {
+                       @class = "form-control",
+                       id = "FName",
+
+                       @onkeypress = "ValidateText(event);"
+
+                   })
                         <span id="messageFName" style="color:red"> </span>
                         @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
@@ -288,10 +320,12 @@
                     @Html.LabelFor(m => m.user.lname, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
                         @Html.TextBoxFor(m => m.user.lname, new
-                        {
-                            @class = "form-control",
-                            id = "LName"
-                        })
+                   {
+                       @class = "form-control",
+                       id = "LName",
+                       @onkeypress = "ValidateText(event);"
+
+                   })
                         <span id="messageLName" style="color:red"> </span>
                         @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
@@ -415,10 +449,12 @@
                     @Html.LabelFor(m => m.address.city, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
                         @Html.TextBoxFor(m => m.address.city, new
-                        {
-                            @class = "form-control",
-                            id = "City"
-                        })
+                   {
+                       @class = "form-control",
+                       id = "City",
+                       @onkeypress = "ValidateText(event);"
+
+                   })
                         <span id="messageCity" style="color:red"> </span>
                         @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
@@ -428,10 +464,11 @@
                     @Html.LabelFor(m => m.address.province, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
                         @Html.TextBoxFor(m => m.address.province, new
-                        {
-                            @class = "form-control",
-                            id = "Province"
-                        })
+                   {
+                       @class = "form-control",
+                       id = "Province",
+                       @onkeypress = "ValidateText(event);"
+                   })
                         <span id="messageProvince" style="color:red"> </span>
                         @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
@@ -441,10 +478,10 @@
                     @Html.LabelFor(m => m.address.postal_code, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
                         @Html.TextBoxFor(m => m.address.postal_code, new
-                        {
-                            @class = "form-control",
-                            id = "PostalCode"
-                        })
+                   {
+                       @class = "form-control",
+                       id = "PostalCode"
+                   })
                         <span id="messagePostalCode" style="color:red"> </span>
                         @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
@@ -454,10 +491,11 @@
                     @Html.LabelFor(m => m.address.country, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
                         @Html.TextBoxFor(m => m.address.country, new
-                        {
-                            @class = "form-control",
-                            id = "Country"
-                        })
+                   {
+                       @class = "form-control",
+                       id = "Country",
+                       @onkeypress = "ValidateText(event);"
+                   })
                         <span id="messageCountry" style="color:red"> </span>
                         @*@Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })*@
                     </div>
