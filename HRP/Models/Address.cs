@@ -25,7 +25,7 @@ namespace HRP.Models
         [Display(Name = "Province")]
         public string province { get; set; }
         [Required(ErrorMessage = "Postal Code Required")]
-        [Display(Name = "Postal COde")]
+        [Display(Name = "Postal Code")]
         public string postal_code { get; set; }
         [Required(ErrorMessage = "Country Name Required")]
         [Display(Name = "Country")]

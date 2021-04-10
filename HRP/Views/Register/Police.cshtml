@@ -221,20 +221,22 @@
             return true;
         }
 
+
         function verify_PostalCode() {
             var elementVal = document.getElementById("PostalCode");
             var msgID = document.getElementById("messagePostalCode");
 
-            var regex = "^\d{5}-\d{4}|\d{5}|[A-Z]\d[A-Z] \d[A-Z]\d$";
-          //if (!elementVal.value.match(regex)) {
-          //    msgID.innerHTML = "**Please enter a valid Postal Code.";
-          //    return false;
-          //}
-          //else
-            if (elementVal.value.length == 0) {
+            //var regex = "^\d{5}-\d{4}|\d{5}|[A-Z]\d[A-Z] \d[A-Z]\d$";
+            var regex = /^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$/;
+            if (!elementVal.value.match(regex)) {
                 msgID.innerHTML = "**Please enter a valid Postal Code.";
                 return false;
             }
+            else
+                if (elementVal.value.length == 0) {
+                    msgID.innerHTML = "**Please enter a valid Postal Code.";
+                    return false;
+                }
 
             msgID.innerHTML = "";
             return true;
