@@ -223,7 +223,10 @@
 
 
 <h2>Complaint Withdraw HRP-Penality</h2>
-<p>Withdraw complaints leads loss of time and energy spent for the case, it our regulation for the civilian to pay for the penality for withdraw. Hence, next time complaint for fun/mistake will not occur. We appreciate your responsible act. </p>
+<p>Withdraw complaints leads to loss of time and energy spent for the case, 
+    it our regulation for the civilians to pay a small penality for withdrawing their complaints.
+    This is just to make sure, no one complaints for fun or by mistake. 
+    We appreciate your responsible act. </p>
 <div class="row">
     <div class="col-75">
         <div class="container">
@@ -246,8 +249,8 @@
                     <label for="cname">Name on Card</label>
                     <input type="text" id="CName" name="CName" placeholder="John More Doe"
                            onkeypress="return (
-                             (event.keyCode >= 65 && event.keyCode <= 90) ||
-                            (event.keyCode >= 97 && event.keyCode <= 122) || 
+                           (event.keyCode>= 65 && event.keyCode <= 90) ||
+                    (event.keyCode >= 97 && event.keyCode <= 122) ||
                     event.keyCode == 8);">
 
                     <span id="messageCName" style="color:red"> </span>
@@ -283,6 +286,41 @@
                         </div>
                     </div>
                 </div>
+
+
+
+
+
+                <label >--------------------------------------------------</label>
+                <label >Please Enter the associated bank address below : </label>
+
+
+
+                <label for="address1">Address Line 1</label>
+                <input type="text" id="address1" name="address1" >
+
+
+                <label for="address2">Address Line 2</label>
+                <input type="text" id="address2" name="address2" >
+
+
+
+                <label for="postalCode">Postal Code</label>
+                <input type="text" id="postalCode" name="postalCode" 
+                       onkeypress="return ((this.value.length <= 5)&&(
+                       (event.keyCode>= 65 && event.keyCode <= 90) ||
+                       (event.keyCode>= 48 && event.keyCode <= 57) ||
+                (event.keyCode >= 97 && event.keyCode <= 122) ||
+                event.keyCode == 8));">
+
+
+                <label for="Province">Province</label>
+                <input type="text" id="Province" name="Province" onkeypress="return (
+                       (event.keyCode>= 65 && event.keyCode <= 90) ||
+                (event.keyCode >= 97 && event.keyCode <= 122) ||
+                event.keyCode == 8);">
+
+
 
 
 
