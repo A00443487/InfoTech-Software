@@ -33,7 +33,7 @@ namespace HRP.Controllers
             }
             else
             {
-                sin = Int16.Parse(session);
+                sin = Int32.Parse(session);
             }
         }
 

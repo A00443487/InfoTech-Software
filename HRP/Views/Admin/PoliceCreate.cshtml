@@ -1,56 +1,103 @@
 ﻿@model IEnumerable<Position>
 
-@{
+    @{
 
-    Layout = "~/Views/Shared/_AdminLayout.cshtml";
-    var title = "New Joinee Police Officer";
-    ViewData["Title"] = title;
-}
-<h2>@title</h2>
-
-<div asp-validation-summary="ModelOnly" class="text-danger"></div>
-<form class="m-1 p-1" method="post" action="/Admin/PoliceCreated">
-
-
-    <div class="form-group">
-
-        <label for="sin"><b>SIN</b></label>
-        <input for="sin" type="number" placeholder="Provide the SIN" name="sin" id="sin" class="form-control" required>
-    </div>
-    <div class="form-group">
-        <label for="position"><b>POSITION</b></label>
-        <select for="position" id="position" name="position" class="form-control" />
-        @foreach (var p in Model)
-        {
-            <option>
-                @p.name
-            </option>
-        }
-    </div>
-    
-    <div class="form-group">
-
-        <label for="code"><b>ACTIVATION CODE</b></label>
-        <input for="code" type="hidden" placeholder="Provide the activation Code" name="ode" id="code" class="form-control" required>
-    </div>
-
-    <div class="form-group">
-        <label for="activation_code"><b>ACTIVATION CODE</b></label>
-        <input for="activation_code" type="number" placeholder="Provide the activation Code" name="activation_code" id="activation_code" class="form-control" required>
-
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+        Layout = "~/Views/Shared/_AdminLayout.cshtml";
+        var title = "New Joinee Police Officer";
+        ViewData["Title"] = title;
+    }
 
 
 
+    @section scripts{
+        <script>
 
-</form>
+            function verifyElements() {
+
+                var result = true;
+
+                result = result && verify_SIN();
+                result = result && verify_ActivationCode();
 
 
-<script src="/lib/jquery/dist/jquery.min.js"></script>
-<script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-<script src="/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>
+                return result;
+            }
 
-<script src="/lib/jquery/dist/jquery.min.js"></script>
-<script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-<script src="/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>  
+
+            function verify_SIN() {
+                var inp_sin = document.getElementById("inp_sin");
+                var msgID = document.getElementById("messageSIN");
+
+                if (inp_sin.value == "") {
+                    msgID.innerHTML = "**Please enter your SIN number.";
+                    return false;
+                } else if (inp_sin.value.length != 9) {
+                    msgID.innerHTML = "**SIN length must be exact 9 characters";
+                    return false;
+                }
+
+                msgID.innerHTML = "";
+                return true;
+            }
+
+        </script>
+    }
+
+
+
+
+    <h2>@title</h2>
+
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <form class="m-1 p-1" method="post" action="/Admin/PoliceCreated">
+
+
+        <div class="form-group">
+
+            <label for="sin"><b>SIN</b></label>
+            <input for="sin" type="number" 
+                   placeholder="Provide the SIN" 
+                   name="sin" id="inp_sin" 
+                   class="form-control" 
+                   required>
+                    <span id="messageSIN" style="color:red"> </span>
+        </div>
+        <div class="form-group">
+            <label for="position"><b>POSITION</b></label>
+            <select for="position" id="position" name="position" class="form-control" />
+            @foreach (var p in Model)
+            {
+                <option>
+                    @p.name
+                </option>
+            }
+        </div>
+
+        <div class="form-group">
+
+            <label for="code"><b>ACTIVATION CODE</b></label>
+            <input for="code" type="hidden" placeholder="Provide the activation Code" name="ode" id="code" class="form-control" required>
+        </div>
+
+        <div class="form-group">
+            <label for="activation_code"><b>ACTIVATION CODE</b></label>
+            <input for="activation_code" type="number"
+                onKeyPress="if(this.value.length==4) return false;"
+                placeholder="Provide the activation Code" name="activation_code" id="activation_code" class="form-control" required>
+
+        </div>
+        <button type="submit"  onclick="return verifyElements()" class="btn btn-primary">Submit</button>
+
+
+
+
+    </form>
+
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>

@@ -44,7 +44,7 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a href="https://google.com/">
+            <a href="https://www.instagram.com/explore/locations/284903899/halifax-regional-police?hl=en">
             <svg
               width="16"
               height="16"

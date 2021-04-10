@@ -227,7 +227,7 @@
 <div class="row">
     <div class="col-75">
         <div class="container">
-            <form method="post" asp-controller="Civilian00" asp-action="WithDrewComplaint00">
+            <form method="post" asp-controller="Civilian" asp-action="WithDrewComplaint">
                 >
 
 
@@ -245,7 +245,12 @@
 
                     <label for="cname">Name on Card</label>
                     <input type="text" id="CName" name="CName" placeholder="John More Doe"
-                           onkeypress="ValidateText(event);">
+                           onkeypress="return (
+                             (event.keyCode >= 65 && event.keyCode <= 90) ||
+                            (event.keyCode >= 97 && event.keyCode <= 122) || 
+                    event.keyCode == 8);">
+
+                    <span id="messageCName" style="color:red"> </span>
 
                     <span id="messageCName" style="color:red"> </span>
 
